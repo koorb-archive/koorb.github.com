@@ -1,0 +1,84 @@
+@import "twitter/bootstrap.less";
+
+@sansFontFamily: "museo-sans-1", Helvetica, sans-serif;
+@textColor: #36380e;
+
+body {
+    background-image: url( ../img/fabric_plaid.png );
+    padding-top: 70px;
+}
+
+#page {
+    background: #ffffff;
+    .box-shadow( 0 0 15px rgba(0,0,0,0.13) );
+    padding: 20px;
+}
+
+.navbar {
+
+    &.navbar-fixed-top {
+        .navbar-inner {
+            background: #eecc49;
+        }
+    }
+
+    .brand {
+        font-family: "myriad-pro-1", @sansFontFamily;
+        font-weight: 700;
+        color: #392812;
+        text-shadow: 0 1px 0 #ffed98;
+    }
+
+    .nav {
+        & > li > a {
+            text-shadow: 0 1px 0 #ffed98;
+        }
+    }
+}
+
+.strapline {
+    font-family: "museo-slab-1", @serifFontFamily;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 300;
+    text-shadow: 0 1px 0 @white;
+}
+
+#tweets {
+    background: #282920;
+    color: @white;
+    padding: 5px;
+    vertical-align: middle;
+
+    li {
+        #gradient > .vertical( @blue, spin(@blue, 10%) );
+        .border-radius( 5px );
+        .box-shadow( 0 0 10px @black );
+        display: inline-block;
+        .ie7-inline-block();
+        font-size: 12px;
+        margin: 5px;
+        width: 280px;
+        min-height: 60px;
+        padding: 8px;
+        text-shadow: 0 -1px 0 rgba( 0, 0, 0, .6);
+        vertical-align: top;
+
+        a {
+            color: @white;
+            text-decoration: underline;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+footer {
+    p {
+        color: @grayLight;
+        font-size: 12px;
+        text-shadow: 0 1px 0 @white;
+    }
+}

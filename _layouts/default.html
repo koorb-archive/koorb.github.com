@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>All these thoughts</title>
+        <meta name="description" content="I have all these thoughts and I'm pretty sure the all contradict each other. Yammerings from a web developer, designer, photographer and follower of Jesus.">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+        <script type="text/javascript" src="//use.typekit.net/wtp6woc.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    </head>
+    <body {% if page.bodyTag %}{{page.bodyTag}}{% endif %}>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a href="/" class="brand">All these thoughts&hellip;</a>
+                    <ul class="nav pull-right">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/thoughts">All my thoughts</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <h2 class="strapline">I have all these thoughts and I'm pretty sure they all contradict each other.</h2>
+
+            <div id="page">
+                <div class="container">
+                    {{ content }}
+                </div>
+            </div>
+
+            <ul id="tweets" class="unstyled">
+                <li>Yay <a href="#">amazon.co.uk</a> now has the <a href="#">amazon.com</a> look =) happy days</li>
+                <li>Twice this morning my iMac has locked up, iTunes stops and all. Any thoughts as to if this could be my new SSD or a memory issue?</li>
+                <li>The Bricks - User Interface Framework <a href="#">designmodo.com/the-bricks/</a> <a href="#">#psd</a> <a href="#">#webdesign</a> via <a href="#">@designmodo</a></li>
+            </ul>
+
+            <footer>
+                <p>
+                    &copy; Copyright Richard Standbrook<br>
+                    <a href="http://ihaveallthesethoughtsandimprettysuretheyallcontradicteachother.com">http://ihaveallthesethoughtsandimprettysuretheyallcontradicteachother.com</a>
+                </p>
+            </footer>
+
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
