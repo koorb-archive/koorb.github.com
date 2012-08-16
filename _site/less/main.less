@@ -27,21 +27,27 @@ body {
         font-weight: 700;
         color: #392812;
         text-shadow: 0 1px 0 #ffed98;
+        font-size: 30px;
+        line-height: 40px;
     }
 
     .nav {
         & > li > a {
+            padding: 20px 15px 20px;
             text-shadow: 0 1px 0 #ffed98;
         }
     }
 }
 
 .strapline {
-    font-family: "museo-slab-1", @serifFontFamily;
-    font-size: 40px;
-    line-height: 45px;
-    font-weight: 300;
+    margin: 0;
+    padding: 60px 0 30px 200px;
+    background: url(../img/me.png) no-repeat -25px 0;
     text-shadow: 0 1px 0 @white;
+    font-weight: 300;
+    font-size: 38px;
+    font-family: "museo-slab-1", @serifFontFamily;
+    line-height: 42px;
 }
 
 #tweets {
@@ -49,6 +55,10 @@ body {
     color: @white;
     padding: 5px;
     vertical-align: middle;
+
+    ul {
+        margin: 0;
+    }
 
     li {
         #gradient > .vertical( @blue, spin(@blue, 10%) );
@@ -58,11 +68,16 @@ body {
         .ie7-inline-block();
         font-size: 12px;
         margin: 5px;
-        width: 280px;
+        width: 284px;
         min-height: 60px;
         padding: 8px;
         text-shadow: 0 -1px 0 rgba( 0, 0, 0, .6);
         vertical-align: top;
+
+        img {
+            float: left;
+            margin: 0 5px 5px 0;
+        }
 
         a {
             color: @white;
@@ -76,9 +91,16 @@ body {
 }
 
 footer {
+    padding: 20px 0;
+    
     p {
         color: @grayLight;
         font-size: 12px;
         text-shadow: 0 1px 0 @white;
     }
+}
+
+.navbar-fixed-bottom {
+    height: 5px;
+    background: @grayDark;
 }
