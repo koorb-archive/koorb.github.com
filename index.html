@@ -6,11 +6,20 @@ title: Home
 <div class="row">
     <div class="span8">
 
-        {% for post in site.posts limit 5 %}
-        <article>
+    	{% for post in site.posts limit:1 %}
+        <article class="featured">
             <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
             <p class="lead">{{ post.description }}</p>
             <section class="entry">{{ post.content }}</section>
+        </article>
+
+        <hr>
+        {% endfor %}
+
+        {% for post in site.posts limit:4 offset:1 %}
+        <article>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.description }}</p>
         </article>
         {% endfor %}
 

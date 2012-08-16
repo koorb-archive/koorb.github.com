@@ -2,11 +2,33 @@
 layout: default
 ---
 
-<h1>{{page.title}}</h1>
-<p class="lead">{{page.description}}</p>
-
 <div id="page">
-    <div class="container">
-        {{ content }}
+    <div class="row">
+        <article class="span9">
+            <h1>{{page.title}}</h1>
+            <p class="lead">{{page.description}}</p>
+
+            <section class="meta">
+                <span class="alert alert-info">I should think you could read this article in <strong>{{ page.content | number_of_words | divided_by:100 }} minutes</strong></span>
+                I wrote this on {{ page.date | date: "%A. %B %d, %Y" }}
+            </section>
+
+            {{ content }}
+
+            <section id="disqus_thread"></section>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'allthesethoughts'; // required: replace example with your forum shortname
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
     </div>
 </div>

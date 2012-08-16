@@ -8,15 +8,11 @@ body {
     padding-top: 70px;
 }
 
-#page {
-    background: #ffffff;
-    .box-shadow( 0 0 15px rgba(0,0,0,0.13) );
-    padding: 20px;
-}
-
 .navbar {
 
     &.navbar-fixed-top {
+        border-top: solid 1px @grayDark;
+
         .navbar-inner {
             background: #eecc49;
         }
@@ -48,6 +44,27 @@ body {
     font-size: 38px;
     font-family: "museo-slab-1", @serifFontFamily;
     line-height: 42px;
+}
+
+#page {
+    background: #ffffff;
+    .box-shadow( 0 0 15px rgba(0,0,0,0.13) );
+    padding: 20px;
+
+    article {
+        section.meta {
+            margin: 40px 0;
+            color: @grayLight;
+
+            .alert {
+                padding: 8px;
+            }
+        }
+
+        section#disqus_thread {
+            margin-top: 40px;
+        }
+    }
 }
 
 #tweets {
@@ -92,7 +109,7 @@ body {
 
 footer {
     padding: 20px 0;
-    
+
     p {
         color: @grayLight;
         font-size: 12px;
@@ -101,6 +118,5 @@ footer {
 }
 
 .navbar-fixed-bottom {
-    height: 5px;
-    background: @grayDark;
+    border-bottom: solid 5px @grayDark;
 }

@@ -1,0 +1,1483 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"bac",
+				"background	background-color: hex"
+			],
+			[
+				"back",
+				"background	background-color: name"
+			],
+			[
+				"tip",
+				"tipFontFamily"
+			],
+			[
+				"pro",
+				"progress"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"fil",
+				"file_li"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"jso",
+				"json_decode"
+			],
+			[
+				"add",
+				"addslashes"
+			],
+			[
+				"cre",
+				"create_li"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"prod",
+				"productSeoOverlay"
+			],
+			[
+				"merg",
+				"merge_defaults"
+			],
+			[
+				"ove",
+				"overlay_id"
+			],
+			[
+				"produ",
+				"product_id"
+			],
+			[
+				"relatedprod",
+				"related-products"
+			],
+			[
+				"rel",
+				"related_product_id"
+			],
+			[
+				"pr",
+				"product"
+			],
+			[
+				"backgr",
+				"background	background-color: transparent"
+			],
+			[
+				"img",
+				"img_src"
+			],
+			[
+				"backg",
+				"background	background-position: position"
+			],
+			[
+				"relat",
+				"relatedList"
+			],
+			[
+				"ava",
+				"available_products"
+			],
+			[
+				"sta",
+				"static_page"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"req",
+				"request_parts"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"ba",
+				"balance"
+			],
+			[
+				"num",
+				"number_format"
+			],
+			[
+				"sa",
+				"sagepayBasket"
+			],
+			[
+				"dis",
+				"dispatch"
+			],
+			[
+				"inc",
+				"inc_tax"
+			],
+			[
+				"tem",
+				"template"
+			],
+			[
+				"err",
+				"error_view"
+			],
+			[
+				"bas",
+				"basketItem"
+			],
+			[
+				"sele",
+				"selected_size"
+			],
+			[
+				"sel",
+				"selected_td"
+			],
+			[
+				"order",
+				"order_id"
+			],
+			[
+				"mo",
+				"formatMoney"
+			],
+			[
+				"or",
+				"orderitem"
+			],
+			[
+				"ret",
+				"return_value"
+			],
+			[
+				"numb",
+				"number_format"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"dispat",
+				"dispatch_method"
+			],
+			[
+				"send",
+				"send_email"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"dele",
+				"delete_url"
+			],
+			[
+				"va",
+				"variant"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"getT",
+				"getTotal"
+			],
+			[
+				"border",
+				"border: border-width: size"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"catego",
+				"categories"
+			],
+			[
+				"text",
+				"text: text-shadow: none"
+			],
+			[
+				"quanti",
+				"quantities"
+			],
+			[
+				"quantit",
+				"quantities"
+			],
+			[
+				"qu",
+				"quantity"
+			],
+			[
+				"retur",
+				"return_quantities"
+			],
+			[
+				"var",
+				"var_dump"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"add rep",
+				"Package Control: Add Repository"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"comb",
+				"Sort via CSScomb"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ent",
+				"StringEncode: HTML Entitize"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"fetch",
+				"Fetch: Manage remote files"
+			],
+			[
+				"export",
+				"Export to HTML: Show Export Menu"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"asp",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"canc",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"cance",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"cancel",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"fetc",
+				"Fetch"
+			],
+			[
+				"brow",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"git di",
+				"Git: Diff All"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git ",
+				"Git: Gui"
+			],
+			[
+				"show",
+				"SFTP: Show Panel"
+			],
+			[
+				"can",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git res",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"gi",
+				"Git: Add Current File"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"git adf",
+				"Git: Add Current File"
+			],
+			[
+				"disc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 115.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/richard/.sublime/history/Volumes/webroster/KPIs/Invoice/Detail/Aug.15.2012.16.04.37.Detail.aspx",
+		"/Volumes/webroster/Scripts/Dashboard.js",
+		"/Volumes/webroster/WRMainNav.aspx",
+		"/Volumes/webroster/WRCustomer/CustDetails.aspx",
+		"/Volumes/webroster/WRCustomer/CustToolBar.ascx",
+		"/Volumes/webroster/WRClient/ClientDetails.aspx",
+		"/Volumes/webroster/CSS/kpi_global.css",
+		"/Volumes/webroster/Proforma/ProformaLog.aspx",
+		"/Volumes/webroster/Invoice/InvoiceLog.aspx",
+		"/Volumes/webroster/Invoice/InvoiceFrame.htm",
+		"/Users/richard/.sublime/history/Volumes/webroster/Invoice/Jul.06.2012.14.16.40.InvoiceLog.aspx",
+		"/Volumes/webroster/Invoice/GenerationList.aspx",
+		"/Volumes/webroster/CreditNote/GenerationList.aspx",
+		"/Volumes/webroster/Proforma/GenerationList.aspx",
+		"/Volumes/webroster/Invoice/InvoiceNav.aspx",
+		"/Volumes/webroster/WRClientGroup/Reports.aspx",
+		"/Volumes/webroster/WRClient/CReports.aspx",
+		"/Volumes/webroster/WRClientGroup/GTimesheet.aspx",
+		"/Volumes/webroster/WRClient/CTimesheet.aspx",
+		"/Volumes/webroster/WRClient/CRoster.aspx",
+		"/Volumes/webroster/WRClientGroup/GRoster.aspx",
+		"/Volumes/WR V3 Style Generator/less/pages/editRequirements-Bookings.less",
+		"/Volumes/webroster/Utils/SelectDate.aspx",
+		"/Volumes/webroster/General/EditBooking.aspx",
+		"/Volumes/webroster/General/EditRequirement.aspx",
+		"/Volumes/webroster/WRClientGroup/Orders.aspx",
+		"/Volumes/webroster/WRClient/Orders.aspx",
+		"/Volumes/webroster/CSS/Extras.css",
+		"/Volumes/webroster/Scripts/GenEdit_Multibrowser.js",
+		"/Volumes/WR V3 Style Generator/less/pages/selectDate.less",
+		"/Volumes/WR V3 Style Generator/less/common.less",
+		"/Volumes/WR V3 Style Generator/less/pages/findAvailableStaff.less",
+		"/Volumes/WR V3 Style Generator/less/pages/editRequirements.less",
+		"/Volumes/webroster/WRStaff/StaffDetails.aspx",
+		"/Volumes/webroster/WRSale/SaleDetails.aspx",
+		"/Volumes/webroster/WRSale/EditSaleQuote.aspx",
+		"/Volumes/webroster/WRClientGroup/GroupDetails.aspx",
+		"/Users/richard/.sublime/history/Volumes/webroster/General/Jul.06.2012.14.16.38.EditBooking.aspx",
+		"/Volumes/webroster/WRStaff/StaffList.aspx",
+		"/Volumes/webroster/WRSale/SaleList.aspx",
+		"/Volumes/WR V3 Style Generator/less/variables.less",
+		"/Volumes/webroster/General/Features/Header.ascx",
+		"/Volumes/webroster/WROrganisation/SupplierList.aspx",
+		"/Users/richard/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Volumes/webroster/Scripts/SupplierList.js",
+		"/Volumes/webroster/WRClient/ClientList.aspx",
+		"/Volumes/webroster/WRClientGroup/GroupMemberDates.aspx",
+		"/Volumes/webroster/WRClientGroup/GroupDetails.aspx.cs",
+		"/Volumes/WR V3 Style Generator/less/twitter/variables.less",
+		"/Volumes/WR V3 Style Generator/less/twitter/sprites.less",
+		"/Volumes/webroster/Payroll/GenerationList.aspx",
+		"/Volumes/webroster/WRSale/SaleQuotes.aspx",
+		"/Volumes/webroster/Payroll/PayrollLog.aspx",
+		"/Volumes/webroster/WRStaff/StaffPayroll.aspx",
+		"/var/folders/9p/mnv0dwjj5cq_nkmk0gh770qc0000gn/T/tmpvOW4hX.html",
+		"/Volumes/webroster/WRCustomer/SaleQuotes.aspx",
+		"/Volumes/webroster/WRCustomer/CustFrame.htm",
+		"/Volumes/webroster/WRSale/SaleFrame.htm",
+		"/Volumes/webroster/Setup/SetupNav.aspx",
+		"/Volumes/webroster/WRCustomer/CustList.aspx",
+		"/Volumes/webroster/WRClientGroup/GroupList.aspx",
+		"/Volumes/webroster/Proforma/ProformaGen.aspx",
+		"/Volumes/webroster/Setup/GroupList.aspx",
+		"/Volumes/webroster/CSS/wr3-login.css",
+		"/Volumes/WR V3 Style Generator/less/login.less",
+		"/Volumes/webroster/WRSale/SaleReports.aspx",
+		"/Volumes/webroster/Dashboard.aspx",
+		"/Volumes/webroster/WRSale/SaleDetails.aspx.cs",
+		"/Users/richard/.sublime/history/Volumes/webroster/WRSale/Jul.12.2012.17.08.10.SaleDetails.aspx",
+		"/Volumes/WR V3 Style Generator/less/style.less",
+		"/Volumes/webroster/AlertManager/AlertList.aspx",
+		"/Volumes/webroster/Announcement.aspx",
+		"/Volumes/webroster/blank-sidebar.html",
+		"/Volumes/webroster/blank.htm",
+		"/Volumes/webroster/CreditNote/CreditGen.aspx",
+		"/Volumes/webroster/CreditNote/FindCreditNotes.aspx",
+		"/Volumes/webroster/Diagnostics.aspx",
+		"/Volumes/webroster/Docs/HelpTopics.aspx",
+		"/Volumes/webroster/Exports/Exp.aspx",
+		"/Volumes/webroster/Exports/UserExports.aspx",
+		"/Volumes/webroster/Exports/Vts2export.aspx",
+		"/Volumes/webroster/General/CancelRequirement.aspx",
+		"/Volumes/webroster/General/ConfirmAVDelete.aspx",
+		"/Volumes/webroster/General/ConfirmBKDelete.aspx",
+		"/Volumes/webroster/General/ConfirmBrkDelete.aspx",
+		"/Volumes/webroster/General/ConfirmPlannedDelete.aspx",
+		"/Volumes/webroster/General/ConfirmPlannedRQDelete.aspx",
+		"/Volumes/webroster/General/ConfirmPreferredBKDelete.aspx",
+		"/Volumes/webroster/General/ConfirmRQDelete.aspx",
+		"/Volumes/webroster/General/ConfirmTRVLDelete.aspx",
+		"/Volumes/webroster/General/EditAvail.aspx",
+		"/Volumes/webroster/General/EditPlannedReqt.aspx",
+		"/Volumes/webroster/General/EditRateSheetAreas.aspx",
+		"/Volumes/webroster/General/FindAvailableStaff.aspx",
+		"/Volumes/webroster/General/FindUncoveredReqt.aspx",
+		"/Volumes/webroster/General/SelectClient.aspx",
+		"/Volumes/webroster/General/SelectCustomer.aspx",
+		"/Volumes/webroster/General/SelectCustomers.aspx",
+		"/Volumes/webroster/General/SelectGroupClients.aspx",
+		"/Volumes/webroster/General/SelectPaySheetAndProducts.aspx",
+		"/Volumes/webroster/General/SelectRateSheet.aspx",
+		"/Volumes/webroster/General/SelectStaff.aspx",
+		"/Volumes/webroster/General/SelectSupervisors.aspx",
+		"/Volumes/webroster/General/SelectSupplier.aspx",
+		"/Volumes/webroster/General/SelectTSClient.aspx",
+		"/Volumes/webroster/General/SelectTSStaff.aspx",
+		"/Volumes/webroster/General/SelectTSStaffOrSupplier.aspx",
+		"/Volumes/webroster/General/ServicePlanStaffList.aspx",
+		"/Volumes/webroster/General/TSDetail.aspx",
+		"/Volumes/webroster/Invoice/FindInvoices.aspx",
+		"/Volumes/webroster/Invoice/InvGen.aspx",
+		"/Volumes/webroster/Invoice/InvProgress.aspx",
+		"/Volumes/webroster/MailMerge/MailMergeGen.aspx",
+		"/Volumes/webroster/MailMerge/MailMergeProgress.aspx",
+		"/Volumes/webroster/MailMerge/MailMergeUploadDetails.aspx",
+		"/Volumes/webroster/MailMerge/MailMergeUploadList.aspx",
+		"/Volumes/webroster/Mapping/QuickAddress.aspx",
+		"/Volumes/webroster/Mapping/TravelGen.aspx",
+		"/Volumes/webroster/Payroll/FindPayroll.aspx",
+		"/Volumes/webroster/Payroll/PayGen.aspx",
+		"/Volumes/webroster/Payroll/PayProgress.aspx",
+		"/Volumes/webroster/Proforma/FindProformas.aspx",
+		"/Volumes/webroster/Proforma/ProformaProgress.aspx",
+		"/Volumes/webroster/Reports/Rpt.aspx",
+		"/Volumes/webroster/Reports/UserReports.aspx",
+		"/Volumes/webroster/Setup/AccessPeriodValues.aspx",
+		"/Volumes/webroster/Setup/AreaValues.aspx",
+		"/Volumes/webroster/Setup/CancellationPoliciesList.aspx"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Volumes/webroster/",
+			"/Volumes/webroster/WRClient",
+			"/Users/rich/Sites/toppersprint.co.uk,/Volumes/webroster/WRClient",
+			"/Users/rich/Sites/toppersprint.co.uk",
+			"/Users/rich/Sites/toppersprint.co.uk/application/classes/controller",
+			"/Users/rich/Sites/toppersprint.co.uk"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"label",
+			"Literal",
+			"span class=\"title bold\"",
+			"Literal",
+			"ID=",
+			"EnableViewState",
+			"</h4>\n            <br />",
+			" </h4>",
+			"span class=\"bold title\"",
+			"div",
+			"AutoPostBack",
+			"Literal",
+			"width:200px;",
+			"width:200px;margin-left:10px;",
+			"clear:both;",
+			"literal",
+			"span class=\"bold title\"",
+			"EnableViewState",
+			"ID=",
+			"Literal",
+			"span class=\"bold title\">\n",
+			"span class=\"bold title\">\n            ",
+			"span class=\"bold title\"",
+			"width:22%;margin:4px;",
+			"width:25%\"",
+			"margin:4px;",
+			"width:30%;",
+			"</h4>\n                <br />",
+			"span class=\"bold title\"",
+			"<br /></h4>",
+			" class=\"title bold\"",
+			"hr",
+			"visibility:hidden\"",
+			"ID=",
+			"literal",
+			"Literal",
+			"EnableViewState",
+			"Literal",
+			"span class=\"bold title\"",
+			"../",
+			"navbar-text",
+			"AutoPostBack",
+			"bottom",
+			"datesel",
+			"span",
+			"literal",
+			"Literal",
+			"<dd>",
+			"dt",
+			"<dt>",
+			"dl",
+			"../",
+			"span",
+			"EnableViewState",
+			"ID=",
+			"strong",
+			"div class=\"kpi_tbl_header\"",
+			"h2",
+			"modal",
+			"asp:Button",
+			"FooterTemplate",
+			"span",
+			"label",
+			"asp:CheckBox",
+			"div",
+			"ItemTemplate",
+			"HeaderTemplate",
+			"EnableViewState=",
+			"ID=",
+			"asp:Repeater",
+			"font-size",
+			"background-ima",
+			"font-family",
+			"Info",
+			"info",
+			"div",
+			":([^\\s])",
+			":[^\\s]",
+			"FooterTemplate",
+			"ItemTemplate",
+			"HeaderTemplate",
+			"ID=\"",
+			"asp:Repeater",
+			"cssclass=\"whitetext smalltext\"",
+			"Font-Bold=\"False\" ",
+			"Font-Bold=\"True\" ",
+			"CssClass",
+			"EnableViewState=",
+			"></asp:boundfield>",
+			"datagrid",
+			"class=\"odd",
+			"PrevPagetext",
+			"NextPagetext",
+			"PagerStyle",
+			"ForeColor=\"Red\" ",
+			"EnableViewState",
+			"DataField",
+			"asp:BoundColumn",
+			"ItemTemplate",
+			"Width=",
+			"HorizontalAlign",
+			"Headertext",
+			"asp:TemplateColumn",
+			"Columns>",
+			"ItemStyle",
+			"AlternatingItemStyle",
+			"HeaderStyle",
+			"AutoGenerateColumns",
+			"PageSize",
+			"buttonstyles",
+			"CssClass",
+			"Text=",
+			"datag",
+			"d5dd",
+			"TemplateField",
+			"ItemStyle",
+			"HeaderStyle",
+			"HorizontalAlign",
+			"HorizontalAlign=\"Center\"",
+			"HeaderText",
+			"DataField",
+			"asp:BoundField",
+			"Columns>",
+			"RowStyle",
+			"EnableTheming",
+			"AutoGenerateColumns",
+			"ID=",
+			"asp:GridView"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			": $1",
+			": ",
+			"$1</td>",
+			"",
+			"&\n",
+			"id",
+			"\" $1=",
+			"\" runat",
+			"server\" EnableViewState",
+			"",
+			"scripts/modernizr",
+			"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">",
+			"    <script type=\"text/javascript\" src=\"../scripts/vendor/modernizr-2.5.3.min.js\"></script>\n    <link href=\"../css/WebRoster.css?ver=3\" type=\"text/css\" rel=\"stylesheet\" />",
+			"\n<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->\n<!--[if lt IE 7]> <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js lt-ie9\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\n",
+			"<script type=\"text/javascript\" src=\"../scripts/vendor/modernizr-2.5.3.min.js\"></script>\n    <link href=\"../css/WebRoster.css?ver=3\" type=\"text/css\" rel=\"stylesheet\" />",
+			"//txtlnkSales",
+			"//txtlnkSystemSetup",
+			" ",
+			"}",
+			"",
+			"}",
+			"",
+			"}",
+			"",
+			"-",
+			"http://www.eatsleepdrinkmagazine.com/track/X/X/X?url=http://",
+			"",
+			"Subtotal",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 121.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"kpipayrol",
+				"webroster/KPIs/Payroll/Detail/Detail.aspx"
+			],
+			[
+				"expende",
+				"webroster/KPIs/Invoice/Expenses/Detail.aspx"
+			],
+			[
+				"kpi",
+				"webroster/CSS/kpi_global.css"
+			],
+			[
+				"kpiinv",
+				"webroster/KPIs/Invoice/Detail/Detail.aspx"
+			],
+			[
+				"das",
+				"webroster/Scripts/Dashboard.js"
+			],
+			[
+				"kpimenu",
+				"webroster/KPIs/menu.aspx"
+			],
+			[
+				"mainna",
+				"webroster/WRMainNav.aspx"
+			],
+			[
+				"dashboard.js",
+				"webroster/Scripts/Dashboard.js"
+			],
+			[
+				"custtoolbar",
+				"webroster/WRCustomer/CustToolBar.ascx"
+			],
+			[
+				"detai",
+				"webroster/WRCustomer/CustDetails.aspx"
+			],
+			[
+				"clientd",
+				"webroster/WRClient/ClientDetails.aspx"
+			],
+			[
+				"proforlog",
+				"webroster/Proforma/ProformaLog.aspx"
+			],
+			[
+				"invoicef",
+				"webroster/Invoice/InvoiceFrame.htm"
+			],
+			[
+				"invoicelo",
+				"webroster/Invoice/InvoiceLog.aspx"
+			],
+			[
+				"profolist",
+				"webroster/Proforma/GenerationList.aspx"
+			],
+			[
+				"genera",
+				"webroster/CreditNote/GenerationList.aspx"
+			],
+			[
+				"invoicena",
+				"webroster/Invoice/InvoiceNav.aspx"
+			],
+			[
+				"invoiclis",
+				"webroster/Invoice/GenerationList.aspx"
+			],
+			[
+				"clientrepo",
+				"webroster/WRClient/CReports.aspx"
+			],
+			[
+				"grouprepor",
+				"webroster/WRClientGroup/Reports.aspx"
+			],
+			[
+				"clienttimesh",
+				"webroster/WRClient/CTimesheet.aspx"
+			],
+			[
+				"grouptime",
+				"webroster/WRClientGroup/GTimesheet.aspx"
+			],
+			[
+				"grouproster",
+				"webroster/WRClientGroup/GRoster.aspx"
+			],
+			[
+				"cientroster",
+				"webroster/WRClient/CRoster.aspx"
+			],
+			[
+				"clientgrouporder",
+				"webroster/WRClientGroup/Orders.aspx"
+			],
+			[
+				"var",
+				"WR V3 Style Generator/less/variables.less"
+			],
+			[
+				"clientorder",
+				"webroster/WRClient/Orders.aspx"
+			],
+			[
+				"extra",
+				"webroster/CSS/Extras.css"
+			],
+			[
+				"genedit_multibrowser",
+				"webroster/Scripts/GenEdit_Multibrowser.js"
+			],
+			[
+				"comm",
+				"WR V3 Style Generator/less/common.less"
+			],
+			[
+				"styl",
+				"WR V3 Style Generator/less/style.less"
+			],
+			[
+				"editreq",
+				"webroster/General/EditRequirement.aspx"
+			],
+			[
+				"common",
+				"WR V3 Style Generator/less/common.less"
+			],
+			[
+				"editbook",
+				"webroster/General/EditBooking.aspx"
+			],
+			[
+				"selecda",
+				"webroster/Utils/SelectDate.aspx"
+			],
+			[
+				"clienttimesheet",
+				"webroster/WRClient/CTimesheet.aspx"
+			],
+			[
+				"clientroster",
+				"webroster/WRClient/CRoster.aspx"
+			],
+			[
+				"supplist",
+				"webroster/WROrganisation/SupplierList.aspx"
+			],
+			[
+				"suppllis",
+				"webroster/Scripts/SupplierList.js"
+			],
+			[
+				"staffli",
+				"webroster/WRStaff/StaffList.aspx"
+			],
+			[
+				"salesli",
+				"webroster/WRSale/SaleList.aspx"
+			],
+			[
+				"clientli",
+				"webroster/WRClient/ClientList.aspx"
+			],
+			[
+				"groupd",
+				"webroster/WRClientGroup/GroupDetails.aspx"
+			],
+			[
+				"clientord",
+				"webroster/WRClient/Orders.aspx"
+			],
+			[
+				"mainnav",
+				"webroster/WRMainNav.aspx"
+			],
+			[
+				"clientde",
+				"webroster/WRClient/ClientDetails.aspx"
+			],
+			[
+				"group",
+				"webroster/WRClientGroup/GroupDetails.aspx"
+			],
+			[
+				"order",
+				"webroster/WRClient/Orders.aspx"
+			],
+			[
+				"sprites.less",
+				"WR V3 Style Generator/less/twitter/sprites.less"
+			],
+			[
+				"clientlist",
+				"webroster/WRClient/ClientList.aspx"
+			],
+			[
+				"staffpay",
+				"webroster/WRStaff/StaffPayroll.aspx"
+			],
+			[
+				"payrol",
+				"webroster/Payroll/PayrollLog.aspx"
+			],
+			[
+				"quote",
+				"webroster/WRSale/SaleQuotes.aspx"
+			],
+			[
+				"payrollis",
+				"webroster/Payroll/GenerationList.aspx"
+			],
+			[
+				"orders",
+				"webroster/WRClient/Orders.aspx"
+			],
+			[
+				"custfr",
+				"webroster/WRCustomer/CustFrame.htm"
+			],
+			[
+				"cust",
+				"webroster/WRCustomer/CustDetails.aspx"
+			],
+			[
+				"salesde",
+				"webroster/WRSale/SaleDetails.aspx"
+			],
+			[
+				"payrollo",
+				"webroster/Payroll/PayrollLog.aspx"
+			],
+			[
+				"salesfra",
+				"webroster/WRSale/SaleFrame.htm"
+			],
+			[
+				"sale",
+				"webroster/WRSale/SaleList.aspx"
+			],
+			[
+				"setupna",
+				"webroster/Setup/SetupNav.aspx"
+			],
+			[
+				"frame",
+				"webroster/WRCustomer/CustFrame.htm"
+			],
+			[
+				"supplierlis",
+				"webroster/WROrganisation/SupplierList.aspx"
+			],
+			[
+				"payrolist",
+				"webroster/Payroll/GenerationList.aspx"
+			],
+			[
+				"stafflis",
+				"webroster/WRStaff/StaffList.aspx"
+			],
+			[
+				"profgener",
+				"webroster/Proforma/GenerationList.aspx"
+			],
+			[
+				"profo",
+				"webroster/Proforma/ProformaGen.aspx"
+			],
+			[
+				"invoicelis",
+				"webroster/Invoice/GenerationList.aspx"
+			],
+			[
+				"clientgroup",
+				"webroster/WRClientGroup/GroupList.aspx"
+			],
+			[
+				"grouplis",
+				"webroster/Setup/GroupList.aspx"
+			],
+			[
+				"clili",
+				"webroster/WRClient/ClientList.aspx"
+			],
+			[
+				"customerde",
+				"webroster/WRCustomer/CustDetails.aspx"
+			],
+			[
+				"saleslis",
+				"webroster/WRSale/SaleList.aspx"
+			],
+			[
+				"custl",
+				"webroster/WRCustomer/CustList.aspx"
+			],
+			[
+				"editsa",
+				"webroster/WRSale/EditSaleQuote.aspx"
+			],
+			[
+				"quotes",
+				"webroster/WRCustomer/SaleQuotes.aspx"
+			],
+			[
+				"salesdet",
+				"webroster/WRSale/SaleDetails.aspx"
+			],
+			[
+				"style",
+				"WR V3 Style Generator/less/style.less"
+			],
+			[
+				"staffde",
+				"webroster/WRStaff/StaffDetails.aspx"
+			],
+			[
+				"staffd",
+				"webroster/WRStaff/StaffDetails.aspx"
+			],
+			[
+				"extras",
+				"webroster/General/Extras/Listing.ascx"
+			],
+			[
+				"form",
+				"WR V3 Style Generator/less/twitter/forms.less"
+			],
+			[
+				"login",
+				"webroster/Login.aspx"
+			],
+			[
+				"details",
+				"webroster/WRCustomer/CustDetails.aspx"
+			],
+			[
+				"supplierpro",
+				"webroster/WROrganisation/SupplierProforma.aspx"
+			],
+			[
+				"supplierde",
+				"webroster/WROrganisation/SupplierDetails.aspx"
+			],
+			[
+				"payrolde",
+				"webroster/KPIs/Payroll/Detail/Detail.aspx"
+			],
+			[
+				"invode",
+				"webroster/KPIs/Invoice/Detail/Detail.aspx"
+			],
+			[
+				"groupde",
+				"webroster/WRClientGroup/GroupDetails.aspx"
+			],
+			[
+				"clied",
+				"webroster/WRClient/ClientDetails.aspx"
+			],
+			[
+				"customde",
+				"webroster/WRCustomer/CustDetails.aspx"
+			],
+			[
+				"clienttool",
+				"webroster/WRClient/ClientToolBar.ascx"
+			],
+			[
+				"hie",
+				"webroster/WRStaff/Hirers.aspx"
+			],
+			[
+				"mainnavsubmenu",
+				"webroster/Scripts/MainNavSubMenu.js"
+			],
+			[
+				"stafftoo",
+				"webroster/WRStaff/StaffToolBar.ascx"
+			],
+			[
+				"",
+				"webroster/Announcement.aspx"
+			],
+			[
+				"navs.less",
+				"WR V3 Style Generator/less/twitter/navs.less"
+			],
+			[
+				"staffl",
+				"webroster/WRStaff/StaffList.aspx"
+			],
+			[
+				"clientlis",
+				"webroster/WRClient/ClientList.aspx"
+			],
+			[
+				"custli",
+				"webroster/WRCustomer/CustList.aspx"
+			],
+			[
+				"setup",
+				"webroster/Setup/setupframe.htm"
+			],
+			[
+				"blank",
+				"webroster/blank.htm"
+			],
+			[
+				"bl",
+				"webroster/blank.htm"
+			],
+			[
+				"setupfram",
+				"webroster/Setup/setupframe.htm"
+			],
+			[
+				"alertlis",
+				"webroster/AlertManager/AlertList.aspx"
+			],
+			[
+				"jquery",
+				"WR V3 Style Generator/js/vendor/jquery-1.7.2.js"
+			],
+			[
+				"jquer",
+				"webroster/Scripts/vendor/jquery-1.7.2.js"
+			],
+			[
+				"jq",
+				"webroster/Scripts/jquery.js"
+			],
+			[
+				"deta",
+				"webroster/WRCustomer/CustDetails.aspx"
+			],
+			[
+				"supplierlist",
+				"webroster/WROrganisation/SupplierList.aspx"
+			],
+			[
+				"toolba",
+				"webroster/WRCustomer/CustToolBar.ascx"
+			],
+			[
+				"supplitool",
+				"webroster/WROrganisation/SupplierToolBar.ascx"
+			],
+			[
+				"staff",
+				"webroster/WRStaff/StaffDetails.aspx"
+			],
+			[
+				"suplde",
+				"webroster/WROrganisation/SupplierDetails.aspx"
+			],
+			[
+				"workinga",
+				"webroster/CSS/WorkingAreas.css"
+			],
+			[
+				"feature",
+				"webroster/CSS/Features.css"
+			],
+			[
+				"variab",
+				"WR V3 Style Generator/less/variables.less"
+			],
+			[
+				"a",
+				"webroster/Announcement.aspx"
+			],
+			[
+				"clienttoo",
+				"webroster/WRClient/ClientToolBar.ascx"
+			],
+			[
+				"toolbar",
+				"webroster/WRCustomer/CustToolBar.ascx"
+			],
+			[
+				"wr3",
+				"webroster/CSS/wr3.css"
+			],
+			[
+				"webrcss",
+				"webroster/CSS/WebRoster.css"
+			],
+			[
+				"vari",
+				"WR V3 Style Generator/less/twitter/variables.less"
+			],
+			[
+				"mainfr",
+				"webroster/WRMainFrame.aspx"
+			],
+			[
+				"style.less",
+				"WR V3 Style Generator/less/style.less"
+			],
+			[
+				"staffdetail",
+				"WRStaff/StaffDetails.aspx"
+			],
+			[
+				"navig",
+				"WRClient/Navigation.aspx.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"ace",
+				"/Users/rich/Sites/accessguard/accessguard.sublime-project"
+			],
+			[
+				"aces",
+				"/Users/rich/Sites/accessguard/accessguard.sublime-project"
+			],
+			[
+				"aga",
+				"/Users/rich/Sites/agai/agai.sublime-project"
+			],
+			[
+				"rsa",
+				"/Users/rich/Sites/rsavsolutions.com/rsav.sublime-project"
+			],
+			[
+				"ac",
+				"/Users/rich/Sites/accessguard/accessguard.sublime-project"
+			],
+			[
+				"topp",
+				"/Users/rich/Sites/toppersprint.co.uk blog/toppers-blog.sublime-project"
+			],
+			[
+				"toppers",
+				"/Users/rich/Sites/toppersprint.co.uk blog/toppers-blog.sublime-project"
+			],
+			[
+				"toppersbl",
+				"/Users/rich/Sites/toppersprint.co.uk blog/toppersblog.sublime-project"
+			],
+			[
+				"topper",
+				"/Users/rich/Sites/toppers-live/toppers-live.sublime-project"
+			],
+			[
+				"",
+				"/Users/rich/Sites/toppers-live/toppers-live.sublime-project"
+			],
+			[
+				"jig",
+				"/Users/rich/Sites/jigowatt/jigoshop/jigoshop.sublime-project"
+			],
+			[
+				"top",
+				"/Users/rich/Sites/toppersprint.co.uk blog/toppersblog.sublime-project"
+			],
+			[
+				"web",
+				"/Users/rich/Sites/webroster/webroster.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true
+}
