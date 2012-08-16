@@ -10,6 +10,9 @@ bodyTag: home
     	{% for post in site.posts limit:1 %}
         <article class="featured">
             <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+            {% if post.splash %}
+            <img src="{{post.splash}}" alt="{{post.title}}" class="splash">
+            {% endif %}
             <p class="lead">{{ post.description }}</p>
             <section class="entry">{{ post.content }}</section>
         </article>
@@ -22,8 +25,11 @@ bodyTag: home
 
 <div class="row">
 	{% for post in site.posts limit:4 offset:1 %}
-	<article class="span6">
+	<article class="span4">
 	    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        {% if post.splash %}
+        <img src="{{post.splash}}" alt="{{post.title}}" class="splash">
+        {% endif %}
 	    <p>
 	    	{{ post.description }}
 	    	<a href="{{ post.url }}">Read this one</a>.

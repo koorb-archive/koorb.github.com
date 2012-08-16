@@ -11,10 +11,11 @@ body {
 .navbar {
 
     &.navbar-fixed-top {
-        border-top: solid 1px @grayDark;
 
         .navbar-inner {
-            background: #eecc49;
+            #gradient > .vertical( @yellow, darken(@yellow, 5%) );
+            border-bottom: solid 1px darken( @yellow, 10% );
+            border-top: solid 1px darken( @yellow, 40% );
         }
     }
 
@@ -29,6 +30,8 @@ body {
 
     .nav {
         & > li > a {
+            color: darken( @yellow, 40% );
+            font-weight: bold;
             padding: 20px 15px 20px;
             text-shadow: 0 1px 0 #ffed98;
         }
@@ -50,6 +53,7 @@ body {
     background: #ffffff;
     .box-shadow( 0 0 15px rgba(0,0,0,0.13) );
     padding: 20px;
+    position: relative;
 
     article {
 
@@ -119,13 +123,27 @@ footer {
 }
 
 .navbar-fixed-bottom {
-    border-bottom: solid 5px @grayDark;
+    border-bottom: solid 5px darken( @yellow, 40% );
 }
 
+
+.splash {
+    margin-bottom: 10px;
+}
 
 /* ----- PAGES ------ */
 
 body.home {
+
+    h1 {
+        a {
+            color: @textColor;
+
+            &:hover {
+                background: @grayLighter;
+            }
+        }
+    }
 
     h3 {
         line-height: 35px;
@@ -135,6 +153,11 @@ body.home {
             background: @yellow;
             color: @textColor;
             text-shadow: 0 1px 0 lighten( @yellow, 30% );
+
+            &:hover {
+                background: darken(@yellow, 5%);
+                text-decoration: none;
+            }
         }
     }
 }

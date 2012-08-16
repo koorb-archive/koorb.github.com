@@ -267,13 +267,25 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_posts/2012-08-16-a-first-for-adobe.md",
+			"settings":
+			{
+				"buffer_size": 844,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 49.0,
 		"selected_items":
 		[
+			[
+				"je",
+				"Jekyll: New Post"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -512,6 +524,13 @@
 	},
 	"file_history":
 	[
+		"/Users/richard/Development/koorb.github.com/less/main.less",
+		"/Users/richard/Development/koorb.github.com/_layouts/default.html",
+		"/Users/richard/Development/koorb.github.com/index.html",
+		"/Users/richard/Development/koorb.github.com/_layouts/post.html",
+		"/Users/richard/Development/koorb.github.com/_posts/2012-08-16-a-first-for-adobe.md",
+		"/Users/richard/Development/koorb.github.com/js/main.js",
+		"/Users/richard/Development/koorb.github.com/_posts/2012-08-16-source-sans-pro.md",
 		"/Users/richard/.sublime/history/Volumes/webroster/KPIs/Invoice/Detail/Aug.15.2012.16.04.37.Detail.aspx",
 		"/Volumes/webroster/Scripts/Dashboard.js",
 		"/Volumes/webroster/WRMainNav.aspx",
@@ -632,14 +651,7 @@
 		"/Volumes/webroster/Mapping/TravelGen.aspx",
 		"/Volumes/webroster/Payroll/FindPayroll.aspx",
 		"/Volumes/webroster/Payroll/PayGen.aspx",
-		"/Volumes/webroster/Payroll/PayProgress.aspx",
-		"/Volumes/webroster/Proforma/FindProformas.aspx",
-		"/Volumes/webroster/Proforma/ProformaProgress.aspx",
-		"/Volumes/webroster/Reports/Rpt.aspx",
-		"/Volumes/webroster/Reports/UserReports.aspx",
-		"/Volumes/webroster/Setup/AccessPeriodValues.aspx",
-		"/Volumes/webroster/Setup/AreaValues.aspx",
-		"/Volumes/webroster/Setup/CancellationPoliciesList.aspx"
+		"/Volumes/webroster/Payroll/PayProgress.aspx"
 	],
 	"find":
 	{
@@ -647,7 +659,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 95.0,
 		"where_history":
 		[
 			"/Volumes/webroster/",
@@ -663,6 +675,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"yellow",
+			"post",
+			"div",
+			"h2",
+			"h1",
 			"label",
 			"Literal",
 			"span class=\"title bold\"",
@@ -785,12 +802,7 @@
 			"HeaderText",
 			"DataField",
 			"asp:BoundField",
-			"Columns>",
-			"RowStyle",
-			"EnableTheming",
-			"AutoGenerateColumns",
-			"ID=",
-			"asp:GridView"
+			"Columns>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -837,8 +849,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_posts/2012-08-16-a-first-for-adobe.md",
+					"settings":
+					{
+						"buffer_size": 844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								844,
+								844
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": true,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -899,6 +942,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"post",
+				"_layouts/post.html"
+			],
+			[
+				"def",
+				"_layouts/default.html"
+			],
 			[
 				"kpipayrol",
 				"webroster/KPIs/Payroll/Detail/Detail.aspx"
@@ -1402,14 +1453,6 @@
 			[
 				"style.less",
 				"WR V3 Style Generator/less/style.less"
-			],
-			[
-				"staffdetail",
-				"WRStaff/StaffDetails.aspx"
-			],
-			[
-				"navig",
-				"WRClient/Navigation.aspx.cs"
 			]
 		],
 		"width": 0.0
@@ -1419,6 +1462,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"wr",
+				"/Users/richard/Google Drive/Active Jobs/WEBR/v3/wr3.sublime-project"
+			],
 			[
 				"ace",
 				"/Users/rich/Sites/accessguard/accessguard.sublime-project"
@@ -1478,6 +1525,6 @@
 	"show_open_files": true,
 	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 207.0,
+	"side_bar_width": 251.0,
 	"status_bar_visible": true
 }
