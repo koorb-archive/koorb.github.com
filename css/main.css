@@ -805,3 +805,4 @@ body{background-image:url(../img/fabric_plaid.png);padding-top:70px;}
 #tweets li a{color:#ffffff;text-decoration:underline;}#tweets li a:hover{text-decoration:none;}
 footer{padding:20px 0;}footer p{color:#999999;font-size:12px;text-shadow:0 1px 0 #ffffff;}
 .navbar-fixed-bottom{border-bottom:solid 5px #333333;}
+body.home h3{line-height:35px;}body.home h3 a{padding:5px;background:#ffc40d;color:#36380e;text-shadow:0 1px 0 #ffe9a6;}

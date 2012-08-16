@@ -18,7 +18,7 @@
         <script type="text/javascript" src="//use.typekit.net/wtp6woc.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </head>
-    <body {% if page.bodyTag %}{{page.bodyTag}}{% endif %}>
+    <body {% if page.bodyTag %}class="{{page.bodyTag}}"{% endif %}>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
@@ -40,11 +40,7 @@
 
             {{content}}
 
-            <div id="tweets">
-                <li>Yay <a href="#">amazon.co.uk</a> now has the <a href="#">amazon.com</a> look =) happy days</li>
-                <li>Twice this morning my iMac has locked up, iTunes stops and all. Any thoughts as to if this could be my new SSD or a memory issue?</li>
-                <li>The Bricks - User Interface Framework <a href="#">designmodo.com/the-bricks/</a> <a href="#">#psd</a> <a href="#">#webdesign</a> via <a href="#">@designmodo</a></li>
-            </div>
+            <div id="tweets"></div>
 
             <footer>
                 <p>

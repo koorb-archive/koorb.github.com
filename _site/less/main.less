@@ -52,6 +52,7 @@ body {
     padding: 20px;
 
     article {
+
         section.meta {
             margin: 40px 0;
             color: @grayLight;
@@ -119,4 +120,21 @@ footer {
 
 .navbar-fixed-bottom {
     border-bottom: solid 5px @grayDark;
+}
+
+
+/* ----- PAGES ------ */
+
+body.home {
+
+    h3 {
+        line-height: 35px;
+
+        a {
+            padding: 5px;
+            background: @yellow;
+            color: @textColor;
+            text-shadow: 0 1px 0 lighten( @yellow, 30% );
+        }
+    }
 }

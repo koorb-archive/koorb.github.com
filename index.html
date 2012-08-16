@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Home
+bodyTag: home
 ---
 
 <div class="row">
@@ -16,12 +17,17 @@ title: Home
         <hr>
         {% endfor %}
 
-        {% for post in site.posts limit:4 offset:1 %}
-        <article>
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p>{{ post.description }}</p>
-        </article>
-        {% endfor %}
-
     </div>
+</div>
+
+<div class="row">
+	{% for post in site.posts limit:4 offset:1 %}
+	<article class="span6">
+	    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+	    <p>
+	    	{{ post.description }}
+	    	<a href="{{ post.url }}">Read this one</a>.
+	    </p>
+	</article>
+	{% endfor %}
 </div>
