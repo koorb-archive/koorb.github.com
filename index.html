@@ -14,7 +14,7 @@ bodyTag: home
             <img src="{{post.splash}}" alt="{{post.title}}" class="splash">
             {% endif %}
             <p class="lead">{{ post.description }}</p>
-            <section class="entry">{{ post.content }}</section>
+            <section class="entry">{{ post.content | truncatewords: 100 }}</section>
         </article>
 
         <hr>

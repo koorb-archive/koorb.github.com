@@ -1,7 +1,7 @@
 ---
 layout: post
 category: thoughts
-tags: [fonts,adobe]
+tags: [fonts, adobe]
 description: Does Adobe hope to maintain it's reputation in the evolving world of typography by releasing it's first ever open source font?
 splash: /img/posts/SourceSplash.png
 ---

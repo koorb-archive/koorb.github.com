@@ -1,5 +1,6 @@
 ---
 layout: default
+bodyTag: single
 ---
 
 <div id="page">
@@ -15,12 +16,12 @@ layout: default
 
             <section class="meta">
                 <span class="alert alert-info">I should think you could read this article in <strong>{{ page.content | number_of_words | divided_by:100 }} minutes</strong></span>
-                I wrote this on {{ page.date | date: "%A. %B %d, %Y" }}
+                <span class="date">I wrote this on {{ page.date | date: "%A. %B %d, %Y" }}</span>
             </section>
 
             {{ content }}
 
-            <p><strong>Tagged:</strong> {{page.tags | join: - }}</p>
+            <p class="tags"><strong>Tagged with:</strong> {{page.tags | array_to_sentence_string }}</p>
 
             <section id="disqus_thread"></section>
             <script type="text/javascript">
