@@ -172,6 +172,28 @@ body.single {
             text-shadow: 0 1px 1px @white;
         }
 
+        h2 {
+            font-weight: 100;
+            margin-top: 25px;
+        }
+
+        .body {
+
+            img {
+                .box-shadow( 0 0 15px #999 );
+                .rotate( 2deg );
+                border: solid 3px #FFF;
+                float: right;
+                margin: 0 -20px 10px 20px;
+
+                &:nth-of-type( even ) {
+                    .rotate( -3deg );
+                    float: left;
+                    margin: 0 20px 10px -20px;
+                }
+            }
+        }
+
         .tags {
             font-family: "skippy-sharp-1", @sansFontFamily;
             font-size: 20px;

@@ -19,7 +19,9 @@ bodyTag: single
                 <span class="date">I wrote this on {{ page.date | date: "%A. %B %d, %Y" }}</span>
             </section>
 
-            {{ content }}
+            <section class="body">
+                {{ content }}
+            </section>
 
             <p class="tags"><strong>Tagged with:</strong> {{page.tags | array_to_sentence_string }}</p>
 
