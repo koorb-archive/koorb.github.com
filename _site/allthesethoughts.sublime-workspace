@@ -271,7 +271,23 @@
 			"file": "_posts/2012-08-16-a-first-for-adobe.md",
 			"settings":
 			{
-				"buffer_size": 844,
+				"buffer_size": 867,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/post.html",
+			"settings":
+			{
+				"buffer_size": 1786,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/main.less",
+			"settings":
+			{
+				"buffer_size": 3095,
 				"line_ending": "Unix"
 			}
 		}
@@ -279,9 +295,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 49.0,
+		"height": 50.0,
 		"selected_items":
 		[
+			[
+				"comb",
+				"Sort via CSScomb"
+			],
 			[
 				"je",
 				"Jekyll: New Post"
@@ -305,10 +325,6 @@
 			[
 				"html",
 				"HTML: Encode Special Characters"
-			],
-			[
-				"comb",
-				"Sort via CSScomb"
 			],
 			[
 				"brows",
@@ -507,7 +523,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 579.0
+		"width": 435.0
 	},
 	"console":
 	{
@@ -524,6 +540,8 @@
 	},
 	"file_history":
 	[
+		"/Users/richard/Google Drive/Active Jobs/ALR/alittleroar.sublime-project",
+		"/Users/richard/Projects/koorb.github.com/allthesethoughts.sublime-project",
 		"/Users/richard/Development/koorb.github.com/less/main.less",
 		"/Users/richard/Development/koorb.github.com/_layouts/default.html",
 		"/Users/richard/Development/koorb.github.com/index.html",
@@ -649,9 +667,7 @@
 		"/Volumes/webroster/MailMerge/MailMergeUploadList.aspx",
 		"/Volumes/webroster/Mapping/QuickAddress.aspx",
 		"/Volumes/webroster/Mapping/TravelGen.aspx",
-		"/Volumes/webroster/Payroll/FindPayroll.aspx",
-		"/Volumes/webroster/Payroll/PayGen.aspx",
-		"/Volumes/webroster/Payroll/PayProgress.aspx"
+		"/Volumes/webroster/Payroll/FindPayroll.aspx"
 	],
 	"find":
 	{
@@ -659,7 +675,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 95.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Volumes/webroster/",
@@ -849,7 +865,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -857,15 +873,15 @@
 					"file": "_posts/2012-08-16-a-first-for-adobe.md",
 					"settings":
 					{
-						"buffer_size": 844,
+						"buffer_size": 867,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								844,
-								844
+								54,
+								54
 							]
 						],
 						"settings":
@@ -881,12 +897,75 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/post.html",
+					"settings":
+					{
+						"buffer_size": 1786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								605,
+								605
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 2,
+					"file": "less/main.less",
+					"settings":
+					{
+						"buffer_size": 3095,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								932,
+								932
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -945,6 +1024,10 @@
 			[
 				"post",
 				"_layouts/post.html"
+			],
+			[
+				"main",
+				"less/main.less"
 			],
 			[
 				"def",
@@ -1449,10 +1532,6 @@
 			[
 				"mainfr",
 				"webroster/WRMainFrame.aspx"
-			],
-			[
-				"style.less",
-				"WR V3 Style Generator/less/style.less"
 			]
 		],
 		"width": 0.0
@@ -1525,6 +1604,6 @@
 	"show_open_files": true,
 	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 251.0,
+	"side_bar_width": 214.0,
 	"status_bar_visible": true
 }
