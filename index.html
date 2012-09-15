@@ -13,10 +13,11 @@ bodyTag: home
             {% if post.splash %}
             <img src="{{post.splash}}" alt="{{post.title}}" class="splash">
             {% endif %}
-            <p class="lead">{{ post.description }}</p>
-            <section class="entry">{{ post.content | truncatewords: 100 }}</section>
+            <p class="lead">
+                {{ post.description }}
+                <a href="{{ post.url }}" class="permalink">Read this one</a>.
+            </p>
         </article>
-
         <hr>
         {% endfor %}
 
@@ -32,7 +33,7 @@ bodyTag: home
         {% endif %}
 	    <p>
 	    	{{ post.description }}
-	    	<a href="{{ post.url }}">Read this one</a>.
+	    	<a href="{{ post.url }}" class="permalink">Read this one</a>.
 	    </p>
 	</article>
 	{% endfor %}
