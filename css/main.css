@@ -815,4 +815,5 @@ body.single article .body{font-family:'skolar-1',Georgia,"Times New Roman",Times
 body.single article .body blockquote p{color:#555555;font-family:"museo-sans-1","museo-sans-1",Helvetica,sans-serif;font-weight:100;}
 body.single article .body img{-webkit-box-shadow:0 0 15px #999999;-moz-box-shadow:0 0 15px #999999;box-shadow:0 0 15px #999999;-webkit-transform:rotate(2deg);-moz-transform:rotate(2deg);-ms-transform:rotate(2deg);-o-transform:rotate(2deg);transform:rotate(2deg);border:solid 3px #FFF;float:right;margin:0 -20px 10px 20px;}body.single article .body img:nth-of-type( even ){-webkit-transform:rotate(-3deg);-moz-transform:rotate(-3deg);-ms-transform:rotate(-3deg);-o-transform:rotate(-3deg);transform:rotate(-3deg);float:left;margin:0 20px 10px -20px;}
 body.single article .tags{font-family:"skippy-sharp-1","museo-sans-1",Helvetica,sans-serif;font-size:20px;}
+body.single article .share{padding:10px 0;}
 .project h3{margin:0;}
