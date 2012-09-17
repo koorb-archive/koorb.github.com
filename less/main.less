@@ -37,24 +37,42 @@ a {
     }
 
     .nav {
-        & > li > a {
-            color: darken( @yellow, 40% );
-            font-weight: bold;
-            padding: 20px 15px 20px;
-            text-shadow: 0 1px 0 #ffed98;
+        & > li {
+
+            & > a {
+                color: darken( @yellow, 40% );
+                font-weight: bold;
+                padding: 20px 15px 20px;
+                text-shadow: 0 1px 0 #ffed98;
+
+                &:hover {
+                    background: darken( @yellow, 5% );
+                    color: darken( @yellow, 60% );
+                    text-shadow: 0 1px 0 lighten( @yellow, 40% );
+                }
+
+                &:active {
+                    box-shadow: inset 0 0 10px darken( @yellow, 10% );
+                }
+            }
+
+            &.current > a {
+                background: darken( @yellow, 5% );
+                box-shadow: inset 0 0 10px darken( @yellow, 10% );
+            }
         }
     }
 }
 
 .strapline {
+    background: url(../img/me.png) no-repeat -25px 0;
+    font-family: "museo-slab-1", @serifFontFamily;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 42px;
     margin: 0;
     padding: 60px 0 35px 200px;
-    background: url(../img/me.png) no-repeat -25px 0;
     text-shadow: 0 1px 0 @white;
-    font-weight: 300;
-    font-size: 38px;
-    font-family: "museo-slab-1", @serifFontFamily;
-    line-height: 42px;
 }
 
 #page {

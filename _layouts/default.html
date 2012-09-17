@@ -32,9 +32,13 @@
                 <div class="container">
                     <a href="/" class="brand">All these thoughts&hellip;</a>
                     <ul class="nav pull-right">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/thoughts.html">All my thoughts</a></li>
-                        <li><a href="/projects.html">Projects</a></li>
+                        {% for link in site.navigation %}
+                        {% assign current = nil %}
+                        {% if page.url == link.url or page.layout == link.layout %}
+                            {% assign current = 'current' %}
+                        {% endif %}
+                        <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>

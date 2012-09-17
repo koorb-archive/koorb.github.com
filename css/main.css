@@ -797,8 +797,10 @@ body{background-image:url(../img/fabric_plaid.png);padding-top:70px;}
 a{color:#006699;}a.permalink{white-space:nowrap;}
 .navbar.navbar-fixed-top .navbar-inner{background-color:#fabf08;background-image:-moz-linear-gradient(top, #ffc40d, #f3b700);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffc40d), to(#f3b700));background-image:-webkit-linear-gradient(top, #ffc40d, #f3b700);background-image:-o-linear-gradient(top, #ffc40d, #f3b700);background-image:linear-gradient(to bottom, #ffc40d, #f3b700);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffc40d', endColorstr='#fff3b700', GradientType=0);border-bottom:solid 1px #d9a400;border-top:solid 1px #403000;}
 .navbar .brand{font-family:"myriad-pro-1","museo-sans-1",Helvetica,sans-serif;font-weight:700;color:#392812;text-shadow:0 1px 0 #ffed98;font-size:30px;line-height:40px;}
-.navbar .nav>li>a{color:#403000;font-weight:bold;padding:20px 15px 20px;text-shadow:0 1px 0 #ffed98;}
-.strapline{margin:0;padding:60px 0 35px 200px;background:url(../img/me.png) no-repeat -25px 0;text-shadow:0 1px 0 #ffffff;font-weight:300;font-size:38px;font-family:"museo-slab-1",Georgia,"Times New Roman",Times,serif;line-height:42px;}
+.navbar .nav>li>a{color:#403000;font-weight:bold;padding:20px 15px 20px;text-shadow:0 1px 0 #ffed98;}.navbar .nav>li>a:hover{background:#f3b700;color:#000000;text-shadow:0 1px 0 #fff6d9;}
+.navbar .nav>li>a:active{box-shadow:inset 0 0 10px #d9a400;}
+.navbar .nav>li.current>a{background:#f3b700;box-shadow:inset 0 0 10px #d9a400;}
+.strapline{background:url(../img/me.png) no-repeat -25px 0;font-family:"museo-slab-1",Georgia,"Times New Roman",Times,serif;font-size:38px;font-weight:300;line-height:42px;margin:0;padding:60px 0 35px 200px;text-shadow:0 1px 0 #ffffff;}
 #page{background:#f4f4f4;-webkit-box-shadow:0 0 15px rgba(0, 0, 0, 0.13);-moz-box-shadow:0 0 15px rgba(0, 0, 0, 0.13);box-shadow:0 0 15px rgba(0, 0, 0, 0.13);padding:20px;position:relative;}#page article section.meta{margin:40px 0;color:#999999;}#page article section.meta .alert{padding:8px;}
 #page article section#disqus_thread{margin-top:40px;}
 #tweets{background:#282920;color:#ffffff;padding:5px;vertical-align:middle;}#tweets ul{margin:0;}
