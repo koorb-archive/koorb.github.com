@@ -2,10 +2,17 @@
 layout: default
 ---
 
-<h2 class="strapline">I have all these thoughts and I'm pretty sure they all contradict each other.</h2>
+<div class="container">
+	<h2 class="strapline">I have all these thoughts and I'm pretty sure they all contradict each other.</h2>
 
-<div id="page">
-    <div class="container">
-        {{ content }}
-    </div>
+	<div id="page">
+	    <div class="row">
+	    	<div class="span8">
+	    		{{ content }}
+	    	</div>
+	    	<div id="affiliates" class="span4">
+	    		{% include affiliates.html %}
+	    	</div>
+	    </div>
+	</div>
 </div>

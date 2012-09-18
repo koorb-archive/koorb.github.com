@@ -21,6 +21,29 @@
         <script type="text/javascript">var switchTo5x=true;</script>
         <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
         <script type="text/javascript">stLight.options({publisher: "4c0d2093-a0ef-4e35-aa7f-4364f8962bf8"}); </script>
+
+        <script type='text/javascript'>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') + 
+        '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+        })();
+        </script>
+
+        <script type='text/javascript'>
+        googletag.cmd.push(function() {
+        googletag.defineSlot('/1004508/HomeRight', [300, 100], 'div-gpt-ad-1347955647696-0').addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+        });
+        </script>
     </head>
     <body class="projects">
         <!--[if lt IE 7]>
@@ -53,66 +76,63 @@
         </div>
 
         <div class="container">
+    <div id="page">
+        <section>
+            
+            <h1>Projects <small>all the things I build</small></h1>
 
-            <div id="page">
-    <div class="container-fluid">
+            <article class="project">
+                <h3><a href="https://github.com/koorb/subigo">Subigo</a></h3>
+                <p>Structural based HTML editor</p>
+                <p>
+                    <span class="label label-inverse">open-source</span>
+                    <span class="label label-info">experimental</span>
+                </p>
+            </article>
 
-        <h1>Projects <small>All the things I build</small></h1>
+            <article class="project">
+                <h3><a href="https://github.com/koorb/selectlist">SelectList</a></h3>
+                <p>jQuery plugin to make selectable lists</p>
+                <p>
+                    <span class="label label-inverse">open-source</span>
+                    <span class="label label-success">jquery</span>
+                </p>
+            </article>
 
-        <p class="lead">Take a look at my work and the projects I'm involved with.</p>
-
-        <h2>Open Source <small>Github projects to contribute to &amp; use</small></h2>
-
-        <div class="row-fluid">
-        	<article class="span4 project">
-        		<div class="well well-small">
-        			<h3><a href="https://github.com/koorb/subigo">Subigo</a></h3>
-        			<p>
-        				<span class="label label-inverse">open-source</span>
-        				<span class="label label-info">experimental</span>
-        			</p>
-        			<p>Structural based HTML editor</p>
-        		</div>
-        	</article>
-
-        	<article class="span4 project">
-        		<div class="well well-small">
-        			<h3><a href="https://github.com/koorb/selectlist">SelectList</a></h3>
-        			<p>
-        				<span class="label label-inverse">open-source</span>
-        				<span class="label label-success">jquery</span>
-        			</p>
-        			<p>jQuery plugin to make selectable lists</p>
-        		</div>
-        	</article>
-
-        	<article class="span4 project">
-        		<div class="well well-small">
-        			<h3><a href="https://github.com/koorb/PageSlide">PageSlide</a></h3>
-        			<p>
-        				<span class="label label-inverse">open-source</span>
-        				<span class="label label-warning">mootools</span>
-        			</p>
-        			<p>Mootools powered page/tab slider</p>
-        		</div>
-        	</article>
-        </div>
-
-        <h2>Commercial <small>A few of the things I'm involved with</small></h2>
-
+            <article class="project">
+                <h3><a href="https://github.com/koorb/PageSlide">PageSlide</a></h3>
+                <p>Mootools powered page/tab slider</p>
+                <p>
+                    <span class="label label-inverse">open-source</span>
+                    <span class="label label-warning">mootools</span>
+                </p>
+            </article>
+        
+        </section>
     </div>
 </div>
 
+        <div class="container">
             <div id="tweets"></div>
-
-            <footer>
-                <p>
-                    &copy; Copyright Richard Standbrook<br>
-                    <a href="http://ihaveallthesethoughtsandimprettysuretheyallcontradicteachother.com">http://ihaveallthesethoughtsandimprettysuretheyallcontradicteachother.com</a>
-                </p>
-            </footer>
-
         </div>
+
+        <footer class="container">
+            <div class="pull-right">
+                <a href="https://twitter.com/richstandbrook" class="twitter-follow-button" data-show-count="false">Follow @richstandbrook</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+                <!-- Place this code where you want the badge to render. -->
+                <a href="//plus.google.com/109441264042298402962?prsrc=3" rel="publisher" style="text-decoration:none;">
+                <img src="//ssl.gstatic.com/images/icons/gplus-16.png" alt="Google+" style="border:0;width:16px;height:16px;"/></a>
+            </div>
+            <p>
+                &copy; Copyright Richard Standbrook <br>
+                <a href="/terms.html">Terms of Service</a> -
+                <a href="/privacy.html">Privacy Policy</a>
+                <br>
+                <a href="http://ihaveallthesethoughtsandimprettysuretheyallcontradicteachother.com">http://ihaveallthesethoughtsandimprettysuretheyallcontradicteachother.com</a>
+            </p>
+        </footer>
 
         <div class="navbar-fixed-bottom"></div>
 
@@ -121,9 +141,8 @@
         <script src="/js/plugins.min.js"></script>
         <script src="/js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            var _gaq=[['_setAccount','UA-22624789-15'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
