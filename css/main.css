@@ -973,7 +973,7 @@ footer iframe{vertical-align:middle;}
 .splash{margin-bottom:10px;}
 #affiliates{text-align:center;}#affiliates h4{border-bottom:solid 2px #DDD;color:gray;font-size:11px;letter-spacing:3px;text-transform:uppercase;}
 #affiliates img,#affiliates iframe{margin:5px 0;}
-body.home .featured{margin:0 20px;}
+body.home .featured{margin:20px;}
 body.home .recent article{padding:0 20px;}
 body.home h1 a{color:#36380e;}body.home h1 a:hover{background:#eeeeee;}
 body.home h3{line-height:35px;}body.home h3 a{padding:5px;background:#ffc40d;color:#36380e;text-shadow:0 1px 0 #ffe9a6;}body.home h3 a:hover{background:#f3b700;text-decoration:none;}
