@@ -30,7 +30,7 @@
         gads.async = true;
         gads.type = 'text/javascript';
         var useSSL = 'https:' == document.location.protocol;
-        gads.src = (useSSL ? 'https:' : 'http:') + 
+        gads.src = (useSSL ? 'https:' : 'http:') +
         '//www.googletagservices.com/tag/js/gpt.js';
         var node = document.getElementsByTagName('script')[0];
         node.parentNode.insertBefore(gads, node);
@@ -123,18 +123,38 @@
                     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
                 </section>
             </div>
-            <div id="affiliates" class="span4">
+            <aside class="span4">
                 
-<!-- <h4>Partners</h4>
+<div id="affiliates">
+	<!-- <h4>Partners</h4>
 
-<a href="http://www.rackspacecloud.com/3430-0-1-19.html" target="_blank"><img border="0" src="http://affiliates.rackspacecloud.com/banners/Powered_the-rackspace-cloud-250-wide.png" width="250" height="69" alt="Powered by Rackspace Cloud Computing"></a>
- -->
-<h4>Sponsors</h4>
+	<a href="http://www.rackspacecloud.com/3430-0-1-19.html" target="_blank"><img border="0" src="http://affiliates.rackspacecloud.com/banners/Powered_the-rackspace-cloud-250-wide.png" width="250" height="69" alt="Powered by Rackspace Cloud Computing"></a>
+	 -->
 
-<a href="http://giffgaff.com/orders/affiliate/koorb" target="_blank"><img src="http://giffgaff.com/banner/09_300x250.png" width="300" height="250" alt="Get a free giffgaff Sim" /></a>
+	<h4>Sponsors</h4>
 
-<a href="http://www.mightydeals.com?refID=d791bc" title="Amazing Deals for Designers"><img src="/img/mightydeals.png" alt="Mighty Deals"></a>
-            </div>
+	<ul class="nav nav-tabs nav-stacked">
+		<li><a href="http://giffgaff.com/orders/affiliate/koorb">
+			<strong>giffgaff</strong><br>
+			Unlimited internet, unlimited texts for £10
+		</a></li>
+		<li><a href="https://dealotto.com?a=191">
+			<strong>Dealotto</strong><br>
+			Daily deals for the lucky
+		</a></li>
+		<li><a href="http://www.mightydeals.com?refID=d791bc">
+			<strong>Mighty Deals</strong><br>
+			Exclusive deals for web professionals
+		</a></li>
+	</ul>
+
+</div>
+
+<p class="hint">
+	<img src="/img/aside-arrow.png" alt="Arrow pointing up">
+	Click a link for a great deal and it will also help keep my kids fed =)
+</p>
+            </aside>
         </div>
     </div>
 </div>

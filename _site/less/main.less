@@ -1,5 +1,5 @@
-@import "twitter/bootstrap.less";
-@import "twitter/responsive.less";
+@import "bootstrap.less";
+@import "responsive.less";
 
 @sansFontFamily: "museo-sans-1", Helvetica, sans-serif;
 @textColor: #36380e;
@@ -167,22 +167,45 @@ footer {
     margin-bottom: 10px;
 }
 
-#affiliates {
-    text-align: center;
-    
-    h4 {
-        border-bottom: solid 2px #DDD;
-        color: gray;
-        font-size: 11px;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-    }
-
-    img, iframe {
-        margin: 5px 0;
-    }
+.hint {
+    .rotate( 2deg );
+    color: @grayDark;
+    font-family: "skippy-sharp-1", @sansFontFamily;
+    font-size: 22px;
+    line-height: 24px;
 }
 
+aside {
+
+    #affiliates {
+        margin-right: 20px;
+        text-align: center;
+
+        h4 {
+            background: #EEE;
+            border-bottom: solid 1px #DDD;
+            color: @black;
+            font-size: 11px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        img, iframe {
+            margin: 5px 0;
+        }
+    }
+
+    .hint {
+        text-align: right;
+        padding-right: 40px;
+
+        img {
+            float: left;
+            margin-top: -20px;
+            width: 60px;
+        }
+    }
+}
 
 /* ----- PAGES ------ */
 
@@ -228,7 +251,7 @@ body.home {
 body.single {
 
     section {
-    
+
         h1 {
             font-size: 55px;
             line-height: 60px;
@@ -252,10 +275,14 @@ body.single {
             }
 
             blockquote {
+                border-color: @gray;
+                margin-left: 50px;
+
                 p {
                     color: @gray;
                     font-family: "museo-sans-1", @sansFontFamily;
                     font-weight: 100;
+                    font-style: italic;
                 }
             }
 
