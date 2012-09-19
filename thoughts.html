@@ -7,9 +7,9 @@ bodyTag: thoughts
 <div class="container">
     <div id="page">
         <section>
-            
+
             <h1>All my thoughts <small>as they tumble out of my head</small></h1>
-            
+
             <div class="row-fluid">
             	{% for post in site.posts %}
             	<article class="span4">
@@ -19,7 +19,7 @@ bodyTag: thoughts
                     {% endif %}
             	    <p>
             	    	{{ post.description }}
-            	    	<a href="{{ post.url }}">Read this one</a>.
+            	    	<a href="{{ post.url }}" class="permalink">Read more &rsaquo;</a>
             	    </p>
             	</article>
             	{% endfor %}
@@ -27,3 +27,5 @@ bodyTag: thoughts
         </section>
     </div>
 </div>
+
+{% include tweets.html %}

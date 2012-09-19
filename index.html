@@ -13,7 +13,9 @@ bodyTag: home
     {% endif %}
     <p class="lead">
         {{ post.description }}
-        <a href="{{ post.url }}" class="permalink">Read this one</a>.
+    </p>
+    <p>
+        <a href="{{ post.url }}" class="permalink">Read more &hellip;</a>
     </p>
 </article>
 <hr>
@@ -29,7 +31,7 @@ bodyTag: home
         {% endif %}
 	    <p>
 	    	{{ post.description }}
-	    	<a href="{{ post.url }}" class="permalink">Read this one</a>.
+	    	<a href="{{ post.url }}" class="permalink">Read more &rsaquo;</a>
 	    </p>
 	</article>
     </div>

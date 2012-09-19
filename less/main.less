@@ -9,11 +9,79 @@ body {
     padding-top: 70px;
 }
 
+h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
 a {
     color: darken( @linkColor, 10% );
 
     &.permalink {
+        .border-radius( 3px );
+        background: @blue;
+        color: @white;
+        display: inline-block;
+        .ie7-inline-block;
+        font-weight: 700;
+        padding: 1px 5px;
         white-space: nowrap;
+
+        &:hover {
+            background: darken( @blue, 5% );
+            text-decoration: none;
+        }
+
+        &:active {
+            .box-shadow( inset 0 0 12px darken(@blue, 20%) );
+        }
+    }
+}
+
+aside {
+
+    #affiliates {
+        margin-right: 20px;
+        text-align: center;
+
+        h4 {
+            background: #EEE;
+            border-bottom: solid 1px #DDD;
+            color: @black;
+            font-size: 11px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        img, iframe {
+            margin: 5px 0;
+        }
+    }
+
+    .hint {
+        text-align: right;
+        padding-right: 40px;
+
+        img {
+            float: left;
+            margin-top: -20px;
+            width: 60px;
+        }
+    }
+}
+
+footer {
+    padding: 20px 0;
+
+    p {
+        color: @grayLight;
+        font-size: 12px;
+        text-shadow: 0 1px 0 @white;
+        vertical-align: middle;
+    }
+
+    iframe {
+        vertical-align: middle;
     }
 }
 
@@ -74,6 +142,7 @@ a {
     margin: 0;
     padding: 60px 0 35px 200px;
     text-shadow: 0 1px 0 @white;
+    text-transform: none;
 }
 
 #page {
@@ -144,21 +213,6 @@ a {
     }
 }
 
-footer {
-    padding: 20px 0;
-
-    p {
-        color: @grayLight;
-        font-size: 12px;
-        text-shadow: 0 1px 0 @white;
-        vertical-align: middle;
-    }
-
-    iframe {
-        vertical-align: middle;
-    }
-}
-
 .navbar-fixed-bottom {
     border-bottom: solid 5px darken( @yellow, 40% );
 }
@@ -175,37 +229,6 @@ footer {
     line-height: 24px;
 }
 
-aside {
-
-    #affiliates {
-        margin-right: 20px;
-        text-align: center;
-
-        h4 {
-            background: #EEE;
-            border-bottom: solid 1px #DDD;
-            color: @black;
-            font-size: 11px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-        }
-
-        img, iframe {
-            margin: 5px 0;
-        }
-    }
-
-    .hint {
-        text-align: right;
-        padding-right: 40px;
-
-        img {
-            float: left;
-            margin-top: -20px;
-            width: 60px;
-        }
-    }
-}
 
 /* ----- PAGES ------ */
 
@@ -213,6 +236,12 @@ body.home {
 
     .featured {
         margin: 20px;
+
+        .permalink {
+            padding: 5px 10px;
+            font-size: 18px;
+            margin-top: -10px;
+        }
     }
 
     .recent {
@@ -315,5 +344,11 @@ body.single {
 body.project {
     h3 {
         margin: 0;
+    }
+}
+
+body.terms, body.privacy {
+    section {
+        text-shadow: 1px 1px 0 @white;
     }
 }
