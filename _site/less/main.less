@@ -6,7 +6,6 @@
 
 body {
     background-image: url( ../img/fabric_plaid.png );
-    padding-top: 70px;
 }
 
 h2 {
@@ -87,13 +86,11 @@ footer {
 
 .navbar {
 
-    &.navbar-fixed-top {
-
-        .navbar-inner {
-            #gradient > .vertical( @yellow, darken(@yellow, 5%) );
-            border-bottom: solid 1px darken( @yellow, 10% );
-            border-top: solid 1px darken( @yellow, 40% );
-        }
+    .navbar-inner {
+        .clearfix;
+        #gradient > .vertical( @yellow, darken(@yellow, 5%) );
+        border-bottom: solid 1px darken( @yellow, 10% );
+        border-top: solid 1px darken( @yellow, 40% );
     }
 
     .brand {
@@ -140,6 +137,7 @@ footer {
     font-weight: 300;
     line-height: 42px;
     margin: 0;
+    margin-top: -10px;
     padding: 60px 0 35px 200px;
     text-shadow: 0 1px 0 @white;
     text-transform: none;
