@@ -1000,3 +1000,4 @@ body.single section .tags{font-family:"skippy-sharp-1","museo-sans-1",Helvetica,
 body.single section .share{padding:10px 0;}
 body.project h3{margin:0;}
 body.terms section,body.privacy section{text-shadow:1px 1px 0 #ffffff;}
+@media (max-width:767px){#page{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;} aside .hint{text-align:left;} footer .pull-right{float:none;} #tweets{padding:5px;}#tweets li{width:auto;display:block;min-height:10px;}}

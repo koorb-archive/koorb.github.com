@@ -350,3 +350,34 @@ body.terms, body.privacy {
         text-shadow: 1px 1px 0 @white;
     }
 }
+
+/* ---- RESPONSIVE DESIGN ------ */
+
+@media (max-width: 767px) {
+    
+    #page {
+        .box-shadow( none );
+    }
+
+    aside {
+        .hint {
+            text-align: left;
+        }
+    }
+
+    footer {
+        .pull-right {
+            float: none;
+        }
+    }
+
+    #tweets {
+        padding: 5px;
+        
+        li {
+            width: auto;
+            display: block;
+            min-height: 10px;
+        }
+    }
+}
