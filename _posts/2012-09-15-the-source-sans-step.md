@@ -26,6 +26,17 @@ Here we reach the main point of this article; Google provide an alternative to t
 
 ## The Source Sans Step
 
-So now we have a growing resource of fonts that work well on the web, even early versions of Internet Exporer. Now we have an increasing selection of open source, commercialy usable fonts. Now what does this do to the high price, restrictive font market? Seems prices are – in some places – becoming more realistic, [$99 for "Museo Slab" a 12 font family](http://www.myfonts.com/fonts/exljbris/museo-slab/) for instance. A big step for a big player is the release of Adobe's first ever open source font "[Source Sans Pro](http://blogs.adobe.com/typblography/2012/08/source-sans-pro.html)" available on both Adobe's own [Typekit](https://typekit.com/fonts/source-sans-pro) and [Google Webfonts](http://www.google.com/webfonts/specimen/Source+Sans+Pro). Will this be the first of many open source fonts from Adobe? It is certainly a possitive step to see fonts dripping into the wider collaberative, open philosophy that the web represents. 
+So now we have a growing resource of fonts that work well on the web, even early versions of Internet Exporer. Now we have an increasing selection of open source, commercialy usable fonts. Now what does this do to the high price, restrictive font market? Seems prices are – in some places – becoming more realistic, [$99 for "Museo Slab" a 12 font family](http://www.myfonts.com/fonts/exljbris/museo-slab/) for instance. A big step for a big player is the release of Adobe's first ever open source <del>font</del> <ins>type family</ins> "[Source Sans Pro](http://blogs.adobe.com/typblography/2012/08/source-sans-pro.html)" available on both Adobe's own [Typekit](https://typekit.com/fonts/source-sans-pro) and [Google Webfonts](http://www.google.com/webfonts/specimen/Source+Sans+Pro). Will this be the first of many open source fonts from Adobe? It is certainly a possitive step to see fonts dripping into the wider collaberative, open philosophy that the web represents.
 
 Only time will tell, but it certainly is brighter days for web designers.
+
+
+<hr id="update">
+
+**Update (26/09/2012):** Following the success of Source Sans Pro Adobe release [Source Code Pro](http://blogs.adobe.com/typblography/2012/09/source-code-pro.html) a monospace font.
+
+**Another update:** Adobe announce [Edge Web Fonts](http://html.adobe.com/edge/webfonts/) giving you access to a vast web font library made possible by contributions from Adobe, Google, and designers around the world.
+
+> Edge Web Fonts aims to improve the web by enabling more web font adoption. Read more about how we’ve [partnered with Google](http://blog.typekit.com/2012/09/24/introducing-adobe-edge-web-fonts/) to push this cause forward.
+
+Great to see Adobe really investing in the open web. They have also released a very interesting number of apps, Edge Animate (previously Adobe Edge Preview - now fully released as 1.0), Edge Reflow and Edge Code as well as a few other services collectivly known as [Adobe Edge Tools &amp; Services](http://html.adobe.com/edge/).

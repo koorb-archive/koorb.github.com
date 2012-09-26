@@ -8,11 +8,6 @@ body {
     background-image: url( ../img/fabric_plaid.png );
 }
 
-h2 {
-    font-size: 18px;
-    text-transform: uppercase;
-}
-
 a {
     color: darken( @linkColor, 10% );
 
@@ -35,6 +30,14 @@ a {
             .box-shadow( inset 0 0 12px darken(@blue, 20%) );
         }
     }
+}
+
+del {
+    color: darken( @red, 10% );
+}
+
+ins {
+    background: lighten( @green, 40% );
 }
 
 aside {
@@ -290,6 +293,7 @@ body.single {
             font-weight: bold;
             font-weight: 100;
             margin-top: 25px;
+            line-height: 25px;
         }
 
         article {
@@ -299,11 +303,22 @@ body.single {
                 font-size: 18px;
                 line-height: 26px;
                 margin-bottom: 30px;
+
+                del {
+                    color: @red;
+                }
+                ins {
+                    color: @green;
+                    background: transparent;
+                    font-family: "skippy-sharp-1", @sansFontFamily;
+                    font-size: 22px;
+                    text-decoration: none;
+                }
             }
 
             blockquote {
                 border-color: @gray;
-                margin-left: 50px;
+                margin-left: 20px;
 
                 p {
                     color: @gray;
@@ -325,6 +340,15 @@ body.single {
                     float: left;
                     margin: 0 20px 10px -20px;
                 }
+            }
+
+            hr {
+                background-image: url( ../img/div-1.png );
+                background-repeat: no-repeat;
+                background-size: 100%;
+                border: none;
+                height: 16px;
+                margin-top: 60px;
             }
         }
 
@@ -348,13 +372,19 @@ body.project {
 body.terms, body.privacy {
     section {
         text-shadow: 1px 1px 0 @white;
+
+        h2 {
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
     }
 }
 
 /* ---- RESPONSIVE DESIGN ------ */
 
 @media (max-width: 767px) {
-    
+
     #page {
         .box-shadow( none );
     }
@@ -373,7 +403,7 @@ body.terms, body.privacy {
 
     #tweets {
         padding: 5px;
-        
+
         li {
             width: auto;
             display: block;
