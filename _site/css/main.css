@@ -994,8 +994,9 @@ body.home h1 a{color:#36380e;}body.home h1 a:hover{background:#eeeeee;}
 body.home h3{line-height:35px;}body.home h3 a{padding:5px;background:#ffc40d;color:#36380e;text-shadow:0 1px 0 #ffe9a6;}body.home h3 a:hover{background:#f3b700;text-decoration:none;}
 body.single section h1{font-size:55px;line-height:60px;margin:20px 0 50px 0;text-shadow:0 1px 1px #ffffff;}
 body.single section h2{font-weight:bold;font-weight:100;margin-top:25px;line-height:25px;}
-body.single section article{font-family:'skolar-1',Georgia,"Times New Roman",Times,serif;}body.single section article p{font-size:18px;line-height:26px;margin-bottom:30px;}body.single section article p del{color:#9d261d;}
-body.single section article p ins{color:#46a546;background:transparent;font-family:"skippy-sharp-1","museo-sans-1",Helvetica,sans-serif;font-size:22px;text-decoration:none;}
+body.single section article{font-family:'skolar-1',Georgia,"Times New Roman",Times,serif;}body.single section article p,body.single section article li{font-size:18px;line-height:26px;margin-bottom:30px;}body.single section article p del,body.single section article li del{color:#9d261d;}
+body.single section article p ins,body.single section article li ins{color:#46a546;background:transparent;font-family:"skippy-sharp-1","museo-sans-1",Helvetica,sans-serif;font-size:22px;text-decoration:none;}
+body.single section article li{margin-bottom:10px;}
 body.single section article blockquote{border-color:#555555;margin-left:20px;}body.single section article blockquote p{color:#555555;font-family:"museo-sans-1","museo-sans-1",Helvetica,sans-serif;font-weight:100;font-style:italic;}
 body.single section article img{-webkit-box-shadow:0 0 15px #999999;-moz-box-shadow:0 0 15px #999999;box-shadow:0 0 15px #999999;-webkit-transform:rotate(2deg);-moz-transform:rotate(2deg);-ms-transform:rotate(2deg);-o-transform:rotate(2deg);transform:rotate(2deg);border:solid 3px #FFF;float:right;margin:0 -20px 10px 20px;}body.single section article img:nth-of-type( even ){-webkit-transform:rotate(-3deg);-moz-transform:rotate(-3deg);-ms-transform:rotate(-3deg);-o-transform:rotate(-3deg);transform:rotate(-3deg);float:left;margin:0 20px 10px -20px;}
 body.single section article hr{background-image:url(../img/div-1.png);background-repeat:no-repeat;background-size:100%;border:none;height:16px;margin-top:60px;}
