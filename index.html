@@ -21,9 +21,8 @@ bodyTag: home
 <hr>
 {% endfor %}
 
-<div class="recent row">
+<div class="recent">
 	{% for post in site.posts limit:3 offset:1 %}
-    <div class="span4">
 	<article>
 	    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         {% if post.splash %}
@@ -34,6 +33,5 @@ bodyTag: home
 	    	<a href="{{ post.url }}" class="permalink">Read more &rsaquo;</a>
 	    </p>
 	</article>
-    </div>
 	{% endfor %}
 </div>

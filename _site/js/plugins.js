@@ -12,4 +12,4 @@ if (!(window.console && console.log)) {
 }
 
 // Place any jQuery/helper plugins in here.
-// @codekit-append "jquery.tweet.js"
+// @codekit-append "vendor/seaofclouds/jquery.tweet.js", "vendor/yconst/jquery.freetile.js", "vendor/newmediacampaigns/jflickrfeed.js"
