@@ -1,5 +1,7 @@
 @import "bootstrap.less";
 @import "responsive.less";
+@import "font-awesome.less";
+@import "font-awesome-ie7.less";
 
 @sansFontFamily: "museo-sans-1", Helvetica, sans-serif;
 @textColor: #36380e;
@@ -42,7 +44,7 @@ ins {
 
 aside {
 
-    #affiliates {
+    #sidebar {
         margin-right: 20px;
         text-align: center;
 
@@ -55,7 +57,7 @@ aside {
             text-transform: uppercase;
         }
 
-        img, iframe {
+        img {
             margin: 5px 0;
         }
     }
@@ -82,8 +84,12 @@ footer {
         vertical-align: middle;
     }
 
-    iframe {
-        vertical-align: middle;
+    .socialLinks {
+        a {
+            font-size: 20px;
+            margin: 5px;
+            .opacity(60);
+        }
     }
 }
 
@@ -171,12 +177,24 @@ footer {
     }
 }
 
-#tweets {
+#socialFeed {
     background: #282920;
     color: @white;
     vertical-align: middle;
     padding: 10px;
-    
+
+    .socialist {
+        box-shadow:#999 1px 1px 1px 0px;
+        *border:1px solid #333;
+        background-color: #fefefe;
+        color:#666;
+        font-size: 12px;
+        margin: 10px;
+        width: 200px;
+        overflow:hidden;
+    }
+
+
     ul {
         margin: 0;
     }
@@ -225,6 +243,23 @@ footer {
     font-family: "skippy-sharp-1", @sansFontFamily;
     font-size: 22px;
     line-height: 24px;
+}
+
+.socialLinks {
+    font-size: 25px;
+    margin: 10px 0;
+
+    a {
+        margin: 20px;
+        display: inline-block;
+        .ie7-inline-block();
+        color: @grayLight;
+
+        &:hover {
+            text-decoration: none;
+            color: @gray;
+        }
+    }
 }
 
 
@@ -365,6 +400,25 @@ body.single {
     }
 }
 
+body.photos {
+
+    #flickrFeed{
+        width: 1130px;
+        margin: auto;
+
+        .socialist {
+            margin: 0;
+            overflow: hidden;
+            width: 226px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+}
+
 body.project {
     h3 {
         margin: 0;
@@ -403,7 +457,7 @@ body.terms, body.privacy {
         }
     }
 
-    #tweets {
+    #socialFeed {
         padding: 5px;
 
         li {
