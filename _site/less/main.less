@@ -42,6 +42,23 @@ ins {
     background: lighten( @green, 40% );
 }
 
+h3 {
+    line-height: 35px;
+
+    a {
+        padding: 5px;
+        background: @yellow;
+        color: @textColor;
+        text-shadow: 0 1px 0 lighten( @yellow, 30% );
+
+        &:hover {
+            background: darken(@yellow, 5%);
+            text-decoration: none;
+            color: @textColor;
+        }
+    }
+}
+
 aside {
 
     #sidebar {
@@ -184,14 +201,17 @@ footer {
     padding: 10px;
 
     .socialist {
-        box-shadow:#999 1px 1px 1px 0px;
+        .box-shadow( @black 1px 1px 1px 0px);
         *border:1px solid #333;
-        background-color: #fefefe;
-        color:#666;
+        background: darken(#282920, 5%);
+        display: inline-block;
+        .ie7-inline-block;
+        color: @grayLight;
         font-size: 12px;
-        margin: 10px;
-        width: 200px;
-        overflow:hidden;
+        margin: 5px;
+        padding: 5px;
+        width: 210px;
+        overflow: hidden;
     }
 
 
@@ -245,6 +265,29 @@ footer {
     line-height: 24px;
 }
 
+.thoughts {
+
+    article {
+        max-width: 380px;
+        margin: 5px;
+
+        h3, img {
+            margin: 0;
+        }
+
+        h3 {
+            top: 0;
+            margin-top: 3px;
+            position: absolute;
+            z-index: 1;
+        }
+
+        img {
+            float: left;
+        }
+    }
+}
+
 .socialLinks {
     font-size: 25px;
     margin: 10px 0;
@@ -277,35 +320,12 @@ body.home {
         }
     }
 
-    .recent {
-        article {
-            padding: 0 20px;
-            max-width: 300px;
-        }
-    }
-
     h1 {
         a {
             color: @textColor;
 
             &:hover {
                 background: @grayLighter;
-            }
-        }
-    }
-
-    h3 {
-        line-height: 35px;
-
-        a {
-            padding: 5px;
-            background: @yellow;
-            color: @textColor;
-            text-shadow: 0 1px 0 lighten( @yellow, 30% );
-
-            &:hover {
-                background: darken(@yellow, 5%);
-                text-decoration: none;
             }
         }
     }
@@ -400,6 +420,18 @@ body.single {
     }
 }
 
+body.thoughts-archive {
+    .thoughts {
+        article {
+            max-width: 365px;
+
+            img {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
 body.photos {
 
     #flickrFeed{
@@ -407,6 +439,8 @@ body.photos {
         margin: auto;
 
         .socialist {
+            display: inline-block;
+            .ie7-inline-block();
             margin: 0;
             overflow: hidden;
             width: 226px;

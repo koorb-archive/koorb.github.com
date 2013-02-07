@@ -4,34 +4,40 @@ title: Home
 bodyTag: home
 ---
 
+<div class="row">
+    <div class="span8">
+        {% for post in site.posts limit:1 %}
+        <article class="featured">
+            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+            {% if post.splash %}
+            <img src="{{post.splash}}" alt="{{post.title}}" class="splash">
+            {% endif %}
+            <p class="lead">
+                {{ post.description }}
+            </p>
+            <p>
+                <a href="{{ post.url }}" class="permalink">Read more &hellip;</a>
+            </p>
+        </article>
+        {% endfor %}
+    </div>
 
-{% for post in site.posts limit:1 %}
-<article class="featured">
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    {% if post.splash %}
-    <img src="{{post.splash}}" alt="{{post.title}}" class="splash">
-    {% endif %}
-    <p class="lead">
-        {{ post.description }}
-    </p>
-    <p>
-        <a href="{{ post.url }}" class="permalink">Read more &hellip;</a>
-    </p>
-</article>
-<hr>
-{% endfor %}
+    <aside class="span4">
+        {% include sidebar.html %}
+    </aside>
+</div>
 
-<div class="recent">
-	{% for post in site.posts limit:3 offset:1 %}
-	<article>
-	    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        {% if post.splash %}
-        <img src="{{post.splash}}" alt="{{post.title}}" class="splash">
-        {% endif %}
-	    <p>
-	    	{{ post.description }}
-	    	<a href="{{ post.url }}" class="permalink">Read more &rsaquo;</a>
-	    </p>
-	</article>
-	{% endfor %}
+<div class="row">
+	<div class="span12">
+        <div class="thoughts">
+            {% for post in site.posts limit:6 offset:1 %}
+            <article>
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                {% if post.splash %}
+                <img src="{{post.splash}}" alt="{{post.title}}" class="splash">
+                {% endif %}
+            </article>
+            {% endfor %}
+        </div>
+    </div>
 </div>
