@@ -13,4 +13,4 @@ splash: /img/posts/steve-jobs.jpg
 
 <hr>
 
-I do hope Apple have some life left without Steve, I'm desprite to see a update to the iMac. As much as I love my iPhone I hope Apple are not leaving the profesionals in the dust =s I do miss Steve's product launces.
+I do hope Apple have some life left without Steve, I'm desperate to see a update to the iMac. As much as I love my iPhone I hope Apple are not leaving the professionals in the dust =s I do miss Steve's product launches.

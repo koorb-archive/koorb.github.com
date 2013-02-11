@@ -8,24 +8,25 @@ bodyTag: thoughts-archive
     <div id="page">
         <section>
 
-            <h1>All my thoughts <small>as they tumble out of my head</small></h1>
+            <h1>
+                All my thoughts
+                <small>as they tumble out of my head</small>
+            </h1>
 
-            <div class="row-fluid">
-            	<div class="thoughts">
-                        {% for post in site.posts %}
-                        <article>
-                            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                            {% if post.splash %}
-                            <img src="{{post.splash}}" alt="{{post.title}}" class="splash">
-                            {% endif %}
-                            <p>
-                                {{ post.description }}
-                                <a href="{{ post.url }}" class="permalink">Read more &rsaquo;</a>
-                            </p>
-                        </article>
-                        {% endfor %}
-                </div>
+
+        	<div class="thoughts">
+                {% for post in site.posts %}
+                <article>
+                    <a href="{{ post.url }}">
+                        <h3>{{ post.title }}</h3>
+                        {% if post.splash %}
+                        <img src="{{post.splash}}" alt="{{post.title}}" class="splash">
+                        {% endif %}
+                    </a>
+                </article>
+                {% endfor %}
             </div>
+
         </section>
     </div>
 </div>

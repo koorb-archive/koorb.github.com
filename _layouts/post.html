@@ -5,9 +5,9 @@ bodyTag: single
 
 <div class="container">
     <div id="page">
-        <aside>
-            {% include sidebar.html %}
-        </aside>
+        <section id="sponsors">
+            {% include sponsors.html %}
+        </section>
         <section>
             <h1>{{page.title}}</h1>
 
@@ -18,8 +18,9 @@ bodyTag: single
             <p class="lead">{{page.description}}</p>
 
             <section class="meta">
-                <span class="alert alert-info">I should think you could read this article in <strong>{{ page.content | number_of_words | divided_by:100 }} minutes</strong></span>
-                <span class="date">I wrote this on {{ page.date | date: "%A. %B %d, %Y" }}</span>
+                {% assign timeToRead = page.content | number_of_words | divided_by:100 %}
+                I should think you could read this in <strong>{{ timeToRead }} minute{% if timeToRead > 1 %}s{% endif %}</strong>.
+                <span class="date">This thought was disgorged on {{ page.date | date: "%A. %B %d, %Y" }}</span>
             </section>
 
             <article>

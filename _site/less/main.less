@@ -3,33 +3,49 @@
 @import "font-awesome.less";
 @import "font-awesome-ie7.less";
 
-@sansFontFamily: "museo-sans-1", Helvetica, sans-serif;
-@textColor: #36380e;
+@appleGreen: #42b802;
+@appleYellow: #ffc000;
+@appleRed: #ff3d00;
+@applePurple: #92319e;
+@appleBlue: #006fdd;
+
+@sansFontFamily: "myriad-pro-1", "myriad-pro-2", Helvetica, sans-serif;
+@serifFontFamily: "skolar-1", Georgia, serif;
+@headingsFontFamily: "omnes-pro-1", "omnes-pro-2", @sansFontFamily;
+@headingsFontWeight: 100;
+
+@textColor: #2a2a2a;
+@headingsColor: @black;
+
+@myLinkColor: @applePurple;
+@linkColor: @myLinkColor;
+
+@back: #2a2a2a;
+@grayLighter: #dedede;
+@yellow: @appleYellow;
 
 body {
     background-image: url( ../img/fabric_plaid.png );
 }
 
 a {
-    color: darken( @linkColor, 10% );
-
     &.permalink {
         .border-radius( 3px );
-        background: @blue;
+        background: @linkColor;
         color: @white;
         display: inline-block;
         .ie7-inline-block;
-        font-weight: 700;
+        font-weight: 600;
         padding: 1px 5px;
         white-space: nowrap;
 
         &:hover {
-            background: darken( @blue, 5% );
+            background: darken( @linkColor, 5% );
             text-decoration: none;
         }
 
         &:active {
-            .box-shadow( inset 0 0 12px darken(@blue, 20%) );
+            .box-shadow( inset 0 0 12px darken(@linkColor, 20%) );
         }
     }
 }
@@ -42,27 +58,120 @@ ins {
     background: lighten( @green, 40% );
 }
 
-h3 {
-    line-height: 35px;
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 60px;
+    line-height: 70px;
 
-    a {
-        padding: 5px;
-        background: @yellow;
-        color: @textColor;
-        text-shadow: 0 1px 0 lighten( @yellow, 30% );
+    small {
+        display: block;
+    }
+}
 
-        &:hover {
-            background: darken(@yellow, 5%);
-            text-decoration: none;
-            color: @textColor;
+.navbar {
+
+    .navbar-inner {
+        .clearfix;
+        #gradient > .vertical( @yellow, darken(@yellow, 5%) );
+        border-bottom: solid 1px darken( @yellow, 10% );
+        border-top: solid 1px @black;
+    }
+
+    .brand {
+        font-family: @sansFontFamily;
+        font-weight: 700;
+        color: @black;
+        text-shadow: 0 1px 0 lighten(@yellow, 20%);
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .nav {
+        & > li {
+
+            & > a {
+                color: @black;
+                font-weight: 600;
+                font-size: 16px;
+                padding: 20px 15px 20px;
+                text-shadow: 0 1px 0 lighten(@yellow, 20%);
+
+                &:hover {
+                    background: darken( @yellow, 5% );
+                }
+
+                &:active {
+                    box-shadow: inset 0 0 10px darken( @yellow, 10% );
+                }
+            }
+
+            &.current > a {
+                background: darken( @yellow, 6% );
+                box-shadow: inset 0 0 10px darken( @yellow, 14% );
+            }
         }
     }
 }
 
-aside {
+.strapline {
+    background: url(../img/me.png) no-repeat -25px 0;
+    font-family: @sansFontFamily;
+    font-size: 38px;
+    line-height: 40px;
+    margin: 0;
+    margin-top: -10px;
+    padding: 60px 200px 40px 220px;
+    text-shadow: 0 1px 0 @white;
+    text-transform: none;
+}
 
-    .affiliates {
-        margin-top: 10px;
+.socialLinks {
+    font-size: 25px;
+    margin: 15px 0 0 10px ;
+
+    a {
+        margin: 5px 9px;
+        display: inline-block;
+        .ie7-inline-block();
+        color: #c4bec3;
+
+        &:hover {
+            text-decoration: none;
+            color: @gray;
+        }
+    }
+}
+
+#page {
+    .box-shadow( 0 0 15px rgba(0, 0, 0, .13) );
+    background: #f4f4f4;
+    margin: auto;
+    position: relative;
+    padding: 10px;
+
+    section#disqus_thread {
+        margin-top: 40px;
+    }
+
+    aside {
+        float: left;
+        margin-top: 25px;
+        width: 380px;
+    }
+}
+
+section#sponsors {
+
+    .socialLinks {
+        margin: 20px 0 0 10px;
+    }
+
+    .sponsors {
+        float: right;
+        margin: 15px 10px 0 0;
 
         a {
             color: #c4bec3;
@@ -81,6 +190,22 @@ aside {
             &:hover {
                 color: darken(#353334, 10%);
             }
+
+            &.giffgaff {
+                &:hover {
+                    strong {
+                        color: #d59100;
+                    }
+                }
+            }
+
+            &.graphicriver {
+                &:hover {
+                    strong {
+                        color: #0093cc;
+                    }
+                }
+            }
         }
     }
 }
@@ -90,9 +215,12 @@ footer {
 
     p {
         color: @grayLight;
-        font-size: 12px;
         text-shadow: 0 1px 0 @white;
         vertical-align: middle;
+
+        a {
+            color: @grayDark;
+        }
     }
 
     .socialLinks {
@@ -104,136 +232,29 @@ footer {
     }
 }
 
-.navbar {
-
-    .navbar-inner {
-        .clearfix;
-        #gradient > .vertical( @yellow, darken(@yellow, 5%) );
-        border-bottom: solid 1px darken( @yellow, 10% );
-        border-top: solid 1px darken( @yellow, 40% );
-    }
-
-    .brand {
-        font-family: "myriad-pro-1", @sansFontFamily;
-        font-weight: 700;
-        color: #392812;
-        text-shadow: 0 1px 0 #ffed98;
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    .nav {
-        & > li {
-
-            & > a {
-                color: darken( @yellow, 40% );
-                font-weight: bold;
-                padding: 20px 15px 20px;
-                text-shadow: 0 1px 0 #ffed98;
-
-                &:hover {
-                    background: darken( @yellow, 5% );
-                    color: darken( @yellow, 60% );
-                    text-shadow: 0 1px 0 lighten( @yellow, 40% );
-                }
-
-                &:active {
-                    box-shadow: inset 0 0 10px darken( @yellow, 10% );
-                }
-            }
-
-            &.current > a {
-                background: darken( @yellow, 6% );
-                box-shadow: inset 0 0 10px darken( @yellow, 14% );
-            }
-        }
-    }
-}
-
-.strapline {
-    background: url(../img/me.png) no-repeat -25px 0;
-    font-family: "museo-slab-1", @serifFontFamily;
-    font-size: 38px;
-    font-weight: 300;
-    line-height: 42px;
-    margin: 0;
-    margin-top: -10px;
-    padding: 60px 0 35px 200px;
-    text-shadow: 0 1px 0 @white;
-    text-transform: none;
-}
-
-#page {
-    .box-shadow( 0 0 15px rgba(0, 0, 0, .13) );
-    background: #f4f4f4;
-    margin: auto;
-    position: relative;
-
-    section {
-        padding: 20px;
-    }
-
-    section.meta {
-        color: @grayLight;
-        margin: 40px 0;
-        padding: 0;
-
-        .alert {
-            padding: 8px;
-        }
-    }
-
-    section#disqus_thread {
-        margin-top: 40px;
-    }
-}
-
 #socialFeed {
-    background: #282920;
+    background: @black;
+    border-top: solid 10px #006fdd;
     color: @white;
     vertical-align: middle;
     padding: 10px;
 
-    .socialist {
-        .box-shadow( @black 1px 1px 1px 0px);
-        *border:1px solid #333;
-        background: darken(#282920, 5%);
-        display: inline-block;
-        .ie7-inline-block;
-        color: @grayLight;
-        font-size: 12px;
-        margin: 5px;
-        padding: 5px;
-        width: 210px;
-        overflow: hidden;
-    }
-
-
     ul {
-        margin: 0;
+        margin: 10px;
+        .content-columns(2, 20px);
     }
 
     li {
-        background: darken(#282920, 5%);
+        color: @grayLighter;
         display: inline-block;
         .ie7-inline-block;
-        color: @grayLight;
-        font-size: 12px;
-        margin: 2px;
-        overflow: hidden;
-        padding: 8px;
-        text-align: left;
-        text-overflow: ellipsis;
-        text-shadow: 0 -1px 0 rgba( 0, 0, 0, .6);
-        vertical-align: top;
-
-        img {
-            float: left;
-            margin: 0 5px 5px 0;
-        }
+        font-family: @serifFontFamily;
+        font-size: 19px;
+        line-height: 22px;
+        padding-bottom: 20px;
 
         a {
-            color: @grayLight;
+            color: @grayLighter;
             text-decoration: underline;
 
             &:hover {
@@ -244,57 +265,35 @@ footer {
 }
 
 .navbar-fixed-bottom {
-    border-bottom: solid 5px darken( @yellow, 40% );
-}
-
-.splash {
-    margin-bottom: 10px;
-}
-
-.hint {
-    .rotate( 2deg );
-    color: @grayDark;
-    font-family: "skippy-sharp-1", @sansFontFamily;
-    font-size: 22px;
-    line-height: 24px;
+    border-bottom: solid 5px @black;
 }
 
 .thoughts {
 
     article {
-        max-width: 380px;
-        margin: 5px;
-
-        h3, img {
-            margin: 0;
-        }
+        position: relative;
 
         h3 {
-            top: 0;
-            margin-top: 3px;
+            #translucent > .background( @black, 0.6 );
+            color: @white;
+            display: block;
+            font-family: @headingsFontFamily;
+            font-size: 28px;
+            line-height: 31px;
+            padding: 5px;
             position: absolute;
+            right: 0;
+            text-align: right;
+            text-shadow: 0 1px 0 @black;
+            text-transform: uppercase;
+            top: 4px;
             z-index: 1;
         }
 
-        img {
-            float: left;
-        }
-    }
-}
-
-.socialLinks {
-    font-size: 25px;
-    margin: 10px 0;
-
-    a {
-        margin: 5px 20px;
-        display: inline-block;
-        .ie7-inline-block();
-        color: #c4bec3;
-
-        &:hover {
-            text-decoration: none;
-            color: @gray;
+        a:hover {
+            h3 {
+                background: @linkColor;
+            }
         }
     }
 }
@@ -304,29 +303,64 @@ footer {
 
 body.home {
 
+    #page {
+        padding: 0;
+    }
+
     .featured {
-        margin: 20px;
+        width: 790px;
+        float: left;
+        position: relative;
+
+        h1 {
+            line-height: 189px;
+            margin-left: 20px;
+            text-align: left;
+            padding: 0;
+
+            a {
+                color: @textColor;
+                .ie7-inline-block;
+                display: inline-block;
+                line-height: 65px;
+                text-decoration: none;
+                vertical-align: middle;
+            }
+        }
+
+        .lead {
+            #translucent > .background(@black, .8);
+            bottom: 0;
+            color: @white;
+            left: 0;
+            margin: 0;
+            padding: 10px;
+            position: absolute;
+            right: 0;
+        }
 
         .permalink {
-            padding: 5px 10px;
-            font-size: 18px;
-            margin-top: -10px;
+            float: right;
+            font-weight: normal;
         }
     }
 
-    h1 {
-        font-family: "omnes-pro-1", @sansFontFamily;
-        font-size: 55px;
-        font-weight: 100;
-        margin-top: 30px;
-        text-transform: uppercase;
-        line-height: 60px;
+    .thoughts {
+        article:nth-child(1) {
+            a:hover h3 {
+                #translucent > .background(@appleGreen, .6);
+            }
+        }
 
-        a {
-            color: @textColor;
+        article:nth-child(2) {
+            a:hover h3 {
+                #translucent > .background(@appleYellow, .6);
+            }
+        }
 
-            &:hover {
-                background: @grayLighter;
+        article:nth-child(3) {
+            a:hover h3 {
+                #translucent > .background(@appleRed, .6);
             }
         }
     }
@@ -334,32 +368,51 @@ body.home {
 
 body.single {
 
+    #page {
+        padding: 0;
+    }
+
     section {
 
         h1 {
-            font-family: "omnes-pro-1", @sansFontFamily;
             font-size: 80px;
             font-weight: 100;
-            margin: 30px 0;
-            text-transform: uppercase;
             line-height: 85px;
-            text-shadow: 0 1px 1px @white;
+            margin: 50px 0;
             text-align: center;
+            text-shadow: 0 1px 1px @white;
+            text-transform: uppercase;
+        }
+
+        .lead {
+            font-size: 30px;
+            line-height: 40px;
+            margin: 40px 0 5px 0;
         }
 
         h2 {
-            font-weight: bold;
-            font-weight: 100;
-            margin-top: 25px;
-            line-height: 25px;
+            font-family: @sansFontFamily;
+            font-weight: 600;
+            line-height: 28px;
+            font-size: 25px;
+            margin: 40px 0 20px 0;
+        }
+
+        .lead, .meta, article, .tags, .share, #disqus_thread {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .meta {
+            color: @grayLight;
+            margin-bottom: 40px;
+            font-size: 16px;
         }
 
         article {
-            font-family: 'skolar-1', @serifFontFamily;
-            -webkit-column-count: 2;
-            -webkit-column-gap: 40px;
-            -moz-column-count: 2;
-            -moz-column-gap: 40px;
+            .content-columns(2, 20px);
+            font-family: @serifFontFamily;
+            margin-bottom: 50px;
 
 
             p, li {
@@ -384,15 +437,30 @@ body.single {
             }
 
             blockquote {
-                border-color: @gray;
-                margin-left: 20px;
-                font-size: 25px;
+                background: lighten(@grayLighter, 5%);
+                border: none;
+                margin: 0;
+                padding: 10px 10px 1px 60px;
+                position: relative;
+                text-shadow: 0 1px 1px @white;
+
+                &:before {
+                    bottom: 0;
+                    content: '\201C';
+                    display: block;
+                    font-size: 100px;
+                    font-style: italic;
+                    left: 10px;
+                    line-height: 100px;
+                    position: absolute;
+                    top: 0;
+                }
 
                 p {
-                    color: @gray;
-                    font-family: "museo-sans-1", @sansFontFamily;
-                    font-weight: 100;
+                    color: @grayLight;
+                    font-size: 21px;
                     font-style: italic;
+                    line-height: 28px
                 }
             }
 
@@ -418,13 +486,15 @@ body.single {
 }
 
 body.thoughts-archive {
+
+    #page {
+        padding: 0;
+    }
+
     .thoughts {
         article {
-            max-width: 365px;
-
-            img {
-                margin-bottom: 5px;
-            }
+            width: 50%;
+            float: left;
         }
     }
 }
@@ -447,12 +517,14 @@ body.photos {
             }
         }
     }
-
 }
 
-body.project {
-    h3 {
-        margin: 0;
+body.projects {
+
+    article.project {
+        display: inline-block;
+        .ie7-inline-block;
+        padding: 10px;
     }
 }
 

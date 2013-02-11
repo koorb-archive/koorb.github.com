@@ -4,39 +4,36 @@ title: Home
 bodyTag: home
 ---
 
-<aside>
-    {% include sidebar.html %}
-</aside>
+<section id="sponsors">
+    {% include sponsors.html %}
+</section>
 
-<div class="row">
-    <div class="span8">
-        {% for post in site.posts limit:1 %}
-        <article class="featured">
-            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-            {% if post.splash %}
-            <img src="{{post.splash}}" alt="{{post.title}}" class="splash">
-            {% endif %}
-            <p class="lead">
-                {{ post.description }}
-            </p>
-            <p>
-                <a href="{{ post.url }}" class="permalink">Read more &hellip;</a>
-            </p>
-        </article>
-        {% endfor %}
-    </div>
+<div class="clearfix">
 
-	<div class="span4">
-        <div class="thoughts">
-            {% for post in site.posts limit:6 offset:1 %}
-            <article>
-                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    {% for post in site.posts limit:1 %}
+    <article class="featured">
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        {% if post.splash %}
+        <a href="{{ post.url }}"><img src="{{post.splash}}" alt="{{post.title}}" class="splash"></a>
+        {% endif %}
+        <p class="lead">
+            {{ post.description }}
+            <a href="{{ post.url }}" class="permalink">Read more &hellip;</a>
+        </p>
+    </article>
+    {% endfor %}
+
+	<aside class="thoughts">
+        {% for post in site.posts limit:3 offset:1 %}
+        <article>
+            <a href="{{ post.url }}">
+                <h3>{{ post.title }}</h3>
                 {% if post.splash %}
                 <img src="{{post.splash}}" alt="{{post.title}}" class="splash">
                 {% endif %}
-            </article>
-            {% endfor %}
-        </div>
-    </div>
-    
+            </a>
+        </article>
+        {% endfor %}
+    </aside>
+
 </div>

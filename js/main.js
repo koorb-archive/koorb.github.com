@@ -1,23 +1,14 @@
 
-// jQuery(function($){
-//     $( '#socialFeed' ).tweet({
-//         username: "richstandbrook",
-//         count: 10,
-//         template: '{text}',
-//         loading_text: 'Just a sec …'
-//     });
-// });
+jQuery(function($){
+    $( '#socialFeed' ).tweet({
+        username: "richstandbrook",
+        count: 6,
+        template: '{text}',
+        loading_text: 'Just a sec …'
+    });
+});
 
-$(".thoughts").freetile()
-
-$("#socialFeed").socialist({
-    networks: [
-        {name:'twitter', id:'richstandbrook'}
-    ],
-    random: false,
-    maxResults: 60,
-    fields: ['text']
-})
+// $(".thoughts").freetile()
 
 $("#flickrFeed").socialist({
     networks: [
