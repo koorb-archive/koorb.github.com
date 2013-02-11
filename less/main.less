@@ -2,16 +2,19 @@
 @import "responsive.less";
 @import "font-awesome.less";
 @import "font-awesome-ie7.less";
+@import url(http://fonts.googleapis.com/css?family=Handlee);
 
 @appleGreen: #42b802;
 @appleYellow: #ffc000;
-@appleRed: #ff3d00;
+@appleOrange: #f2542e;
+@appleRed: #db473f;
 @applePurple: #92319e;
 @appleBlue: #006fdd;
 
 @sansFontFamily: "myriad-pro-1", "myriad-pro-2", Helvetica, sans-serif;
 @serifFontFamily: "skolar-1", Georgia, serif;
 @headingsFontFamily: "omnes-pro-1", "omnes-pro-2", @sansFontFamily;
+@handFontFamily: "Handlee", @sansFontFamily;
 @headingsFontWeight: 100;
 
 @textColor: #2a2a2a;
@@ -151,6 +154,8 @@ h1 {
     margin: auto;
     position: relative;
     padding: 10px;
+    border-bottom: 1px solid lighten(@appleBlue, 10%);
+    .clearfix();
 
     section#disqus_thread {
         margin-top: 40px;
@@ -234,24 +239,30 @@ footer {
 
 #socialFeed {
     background: @black;
-    border-top: solid 10px #006fdd;
+    border-top: solid 30px #006fdd;
     color: @white;
     vertical-align: middle;
     padding: 10px;
 
     ul {
         margin: 10px;
-        .content-columns(2, 20px);
+        .content-columns(3, 30px);
     }
 
     li {
+        .rotate(-.4deg);
         color: @grayLighter;
         display: inline-block;
         .ie7-inline-block;
-        font-family: @serifFontFamily;
-        font-size: 19px;
-        line-height: 22px;
+        font-family: @handFontFamily;
+        font-size: 18px;
+        line-height: 21px;
         padding-bottom: 20px;
+        text-shadow: -1px -1px 1px @black;
+
+        &:nth-child(3n+3) {
+            .rotate(.1deg);
+        }
 
         a {
             color: @grayLighter;
@@ -295,6 +306,42 @@ footer {
                 background: @linkColor;
             }
         }
+
+        &:nth-child(3n+1) {
+            a:hover h3 {
+                #translucent > .background(@appleGreen, .6);
+            }
+        }
+
+        &:nth-child(3n+2) {
+            a:hover h3 {
+                #translucent > .background(@appleYellow, .6);
+            }
+        }
+
+        &:nth-child(3n+3) {
+            a:hover h3 {
+                #translucent > .background(@appleOrange, .6);
+            }
+        }
+
+        &:nth-child(3n+4) {
+            a:hover h3 {
+                #translucent > .background(@appleRed, .6);
+            }
+        }
+
+        &:nth-child(3n+5) {
+            a:hover h3 {
+                #translucent > .background(@applePurple, .6);
+            }
+        }
+
+        &:nth-child(3n+6) {
+            a:hover h3 {
+                #translucent > .background(@appleBlue, .6);
+            }
+        }
     }
 }
 
@@ -329,7 +376,7 @@ body.home {
         }
 
         .lead {
-            #translucent > .background(@black, .8);
+            #translucent > .background(@black, .7);
             bottom: 0;
             color: @white;
             left: 0;
@@ -342,26 +389,6 @@ body.home {
         .permalink {
             float: right;
             font-weight: normal;
-        }
-    }
-
-    .thoughts {
-        article:nth-child(1) {
-            a:hover h3 {
-                #translucent > .background(@appleGreen, .6);
-            }
-        }
-
-        article:nth-child(2) {
-            a:hover h3 {
-                #translucent > .background(@appleYellow, .6);
-            }
-        }
-
-        article:nth-child(3) {
-            a:hover h3 {
-                #translucent > .background(@appleRed, .6);
-            }
         }
     }
 }
@@ -387,7 +414,7 @@ body.single {
         .lead {
             font-size: 30px;
             line-height: 40px;
-            margin: 40px 0 5px 0;
+            margin: 50px 0 5px 0;
         }
 
         h2 {
@@ -405,7 +432,7 @@ body.single {
 
         .meta {
             color: @grayLight;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
             font-size: 16px;
         }
 
@@ -426,7 +453,7 @@ body.single {
                 ins {
                     color: @green;
                     background: transparent;
-                    font-family: "skippy-sharp-1", @sansFontFamily;
+                    font-family: @handFontFamily;
                     font-size: 22px;
                     text-decoration: none;
                 }
@@ -453,6 +480,7 @@ body.single {
                     left: 10px;
                     line-height: 100px;
                     position: absolute;
+                    text-shadow: 0 1px 1px @white;
                     top: 0;
                 }
 
@@ -475,7 +503,7 @@ body.single {
         }
 
         .tags {
-            font-family: "skippy-sharp-1", @sansFontFamily;
+            font-family: @handFontFamily;
             font-size: 20px;
         }
 
