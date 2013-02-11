@@ -61,32 +61,26 @@ h3 {
 
 aside {
 
-    #sidebar {
-        margin-right: 20px;
-        text-align: center;
+    .affiliates {
+        margin-top: 10px;
 
-        h4 {
-            background: #EEE;
-            border-bottom: solid 1px #DDD;
-            color: @black;
-            font-size: 11px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-        }
+        a {
+            color: #c4bec3;
+            display: inline-block;
+            .ie7-inline-block();
+            text-align: center;
 
-        img {
-            margin: 5px 0;
-        }
-    }
+            strong {
+                font-size: 21px;
+                font-family: 'skolar-1', @serifFontFamily;
+                font-weight: normal;
+                display: block;
+                margin-bottom: 10px;
+            }
 
-    .hint {
-        text-align: right;
-        padding-right: 40px;
-
-        img {
-            float: left;
-            margin-top: -20px;
-            width: 60px;
+            &:hover {
+                color: darken(#353334, 10%);
+            }
         }
     }
 }
@@ -293,10 +287,10 @@ footer {
     margin: 10px 0;
 
     a {
-        margin: 20px;
+        margin: 5px 20px;
         display: inline-block;
         .ie7-inline-block();
-        color: @grayLight;
+        color: #c4bec3;
 
         &:hover {
             text-decoration: none;
@@ -321,6 +315,13 @@ body.home {
     }
 
     h1 {
+        font-family: "omnes-pro-1", @sansFontFamily;
+        font-size: 55px;
+        font-weight: 100;
+        margin-top: 30px;
+        text-transform: uppercase;
+        line-height: 60px;
+
         a {
             color: @textColor;
 
@@ -336,10 +337,14 @@ body.single {
     section {
 
         h1 {
-            font-size: 55px;
-            line-height: 60px;
-            margin: 20px 0 50px 0;
+            font-family: "omnes-pro-1", @sansFontFamily;
+            font-size: 80px;
+            font-weight: 100;
+            margin: 30px 0;
+            text-transform: uppercase;
+            line-height: 85px;
             text-shadow: 0 1px 1px @white;
+            text-align: center;
         }
 
         h2 {
@@ -351,6 +356,11 @@ body.single {
 
         article {
             font-family: 'skolar-1', @serifFontFamily;
+            -webkit-column-count: 2;
+            -webkit-column-gap: 40px;
+            -moz-column-count: 2;
+            -moz-column-gap: 40px;
+
 
             p, li {
                 font-size: 18px;
@@ -376,26 +386,13 @@ body.single {
             blockquote {
                 border-color: @gray;
                 margin-left: 20px;
+                font-size: 25px;
 
                 p {
                     color: @gray;
                     font-family: "museo-sans-1", @sansFontFamily;
                     font-weight: 100;
                     font-style: italic;
-                }
-            }
-
-            img {
-                .box-shadow( 0 0 15px #999 );
-                .rotate( 2deg );
-                border: solid 3px #FFF;
-                float: right;
-                margin: 0 -20px 10px 20px;
-
-                &:nth-of-type( even ) {
-                    .rotate( -3deg );
-                    float: left;
-                    margin: 0 20px 10px -20px;
                 }
             }
 
@@ -477,12 +474,6 @@ body.terms, body.privacy {
 
     #page {
         .box-shadow( none );
-    }
-
-    aside {
-        .hint {
-            text-align: left;
-        }
     }
 
     footer {

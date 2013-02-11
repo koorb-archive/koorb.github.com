@@ -1565,9 +1565,8 @@ a.permalink:active{-webkit-box-shadow:inset 0 0 12px #025577;-moz-box-shadow:ins
 del{color:#721c15;}
 ins{background:#cdeacd;}
 h3{line-height:35px;}h3 a{padding:5px;background:#ffc40d;color:#36380e;text-shadow:0 1px 0 #ffe9a6;}h3 a:hover{background:#f3b700;text-decoration:none;color:#36380e;}
-aside #sidebar{margin-right:20px;text-align:center;}aside #sidebar h4{background:#EEE;border-bottom:solid 1px #DDD;color:#000000;font-size:11px;letter-spacing:3px;text-transform:uppercase;}
-aside #sidebar img{margin:5px 0;}
-aside .hint{text-align:right;padding-right:40px;}aside .hint img{float:left;margin-top:-20px;width:60px;}
+aside .affiliates{margin-top:10px;}aside .affiliates a{color:#c4bec3;display:inline-block;*display:inline;*zoom:1;text-align:center;}aside .affiliates a strong{font-size:21px;font-family:'skolar-1',Georgia,"Times New Roman",Times,serif;font-weight:normal;display:block;margin-bottom:10px;}
+aside .affiliates a:hover{color:#1b1a1a;}
 footer{padding:20px 0;}footer p{color:#999999;font-size:12px;text-shadow:0 1px 0 #ffffff;vertical-align:middle;}
 footer .socialLinks a{font-size:20px;margin:5px;opacity:0.6;filter:alpha(opacity=60);}
 .navbar .navbar-inner{*zoom:1;background-color:#fabf08;background-image:-moz-linear-gradient(top, #ffc40d, #f3b700);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffc40d), to(#f3b700));background-image:-webkit-linear-gradient(top, #ffc40d, #f3b700);background-image:-o-linear-gradient(top, #ffc40d, #f3b700);background-image:linear-gradient(to bottom, #ffc40d, #f3b700);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffc40d', endColorstr='#fff3b700', GradientType=0);border-bottom:solid 1px #d9a400;border-top:solid 1px #403000;}.navbar .navbar-inner:before,.navbar .navbar-inner:after{display:table;content:"";line-height:0;}
@@ -1592,16 +1591,15 @@ footer .socialLinks a{font-size:20px;margin:5px;opacity:0.6;filter:alpha(opacity
 .thoughts article{max-width:380px;margin:5px;}.thoughts article h3,.thoughts article img{margin:0;}
 .thoughts article h3{top:0;margin-top:3px;position:absolute;z-index:1;}
 .thoughts article img{float:left;}
-.socialLinks{font-size:25px;margin:10px 0;}.socialLinks a{margin:20px;display:inline-block;*display:inline;*zoom:1;color:#999999;}.socialLinks a:hover{text-decoration:none;color:#555555;}
+.socialLinks{font-size:25px;margin:10px 0;}.socialLinks a{margin:5px 20px;display:inline-block;*display:inline;*zoom:1;color:#c4bec3;}.socialLinks a:hover{text-decoration:none;color:#555555;}
 body.home .featured{margin:20px;}body.home .featured .permalink{padding:5px 10px;font-size:18px;margin-top:-10px;}
-body.home h1 a{color:#36380e;}body.home h1 a:hover{background:#eeeeee;}
-body.single section h1{font-size:55px;line-height:60px;margin:20px 0 50px 0;text-shadow:0 1px 1px #ffffff;}
+body.home h1{font-family:"omnes-pro-1","museo-sans-1",Helvetica,sans-serif;font-size:55px;font-weight:100;margin-top:30px;text-transform:uppercase;line-height:60px;}body.home h1 a{color:#36380e;}body.home h1 a:hover{background:#eeeeee;}
+body.single section h1{font-family:"omnes-pro-1","museo-sans-1",Helvetica,sans-serif;font-size:80px;font-weight:100;margin:30px 0;text-transform:uppercase;line-height:85px;text-shadow:0 1px 1px #ffffff;text-align:center;}
 body.single section h2{font-weight:bold;font-weight:100;margin-top:25px;line-height:25px;}
-body.single section article{font-family:'skolar-1',Georgia,"Times New Roman",Times,serif;}body.single section article p,body.single section article li{font-size:18px;line-height:26px;margin-bottom:30px;}body.single section article p del,body.single section article li del{color:#9d261d;}
+body.single section article{font-family:'skolar-1',Georgia,"Times New Roman",Times,serif;-webkit-column-count:2;-webkit-column-gap:40px;-moz-column-count:2;-moz-column-gap:40px;}body.single section article p,body.single section article li{font-size:18px;line-height:26px;margin-bottom:30px;}body.single section article p del,body.single section article li del{color:#9d261d;}
 body.single section article p ins,body.single section article li ins{color:#46a546;background:transparent;font-family:"skippy-sharp-1","museo-sans-1",Helvetica,sans-serif;font-size:22px;text-decoration:none;}
 body.single section article li{margin-bottom:10px;}
-body.single section article blockquote{border-color:#555555;margin-left:20px;}body.single section article blockquote p{color:#555555;font-family:"museo-sans-1","museo-sans-1",Helvetica,sans-serif;font-weight:100;font-style:italic;}
-body.single section article img{-webkit-box-shadow:0 0 15px #999999;-moz-box-shadow:0 0 15px #999999;box-shadow:0 0 15px #999999;-webkit-transform:rotate(2deg);-moz-transform:rotate(2deg);-ms-transform:rotate(2deg);-o-transform:rotate(2deg);transform:rotate(2deg);border:solid 3px #FFF;float:right;margin:0 -20px 10px 20px;}body.single section article img:nth-of-type( even ){-webkit-transform:rotate(-3deg);-moz-transform:rotate(-3deg);-ms-transform:rotate(-3deg);-o-transform:rotate(-3deg);transform:rotate(-3deg);float:left;margin:0 20px 10px -20px;}
+body.single section article blockquote{border-color:#555555;margin-left:20px;font-size:25px;}body.single section article blockquote p{color:#555555;font-family:"museo-sans-1","museo-sans-1",Helvetica,sans-serif;font-weight:100;font-style:italic;}
 body.single section article hr{background-image:url(../img/div-1.png );background-repeat:no-repeat;background-size:100%;border:none;height:16px;margin-top:60px;}
 body.single section .tags{font-family:"skippy-sharp-1","museo-sans-1",Helvetica,sans-serif;font-size:20px;}
 body.single section .share{padding:10px 0;}
@@ -1609,4 +1607,4 @@ body.thoughts-archive .thoughts article{max-width:365px;}body.thoughts-archive .
 body.photos #flickrFeed{width:1130px;margin:auto;}body.photos #flickrFeed .socialist{display:inline-block;*display:inline;*zoom:1;margin:0;overflow:hidden;width:226px;}body.photos #flickrFeed .socialist img{width:100%;}
 body.project h3{margin:0;}
 body.terms section,body.privacy section{text-shadow:1px 1px 0 #ffffff;}body.terms section h2,body.privacy section h2{font-size:18px;text-transform:uppercase;}
-@media (max-width:767px){#page{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;} aside .hint{text-align:left;} footer .pull-right{float:none;} #socialFeed{padding:5px;}#socialFeed li{width:auto;display:block;min-height:10px;}}
+@media (max-width:767px){#page{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;} footer .pull-right{float:none;} #socialFeed{padding:5px;}#socialFeed li{width:auto;display:block;min-height:10px;}}

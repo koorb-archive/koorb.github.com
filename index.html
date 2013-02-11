@@ -4,6 +4,10 @@ title: Home
 bodyTag: home
 ---
 
+<aside>
+    {% include sidebar.html %}
+</aside>
+
 <div class="row">
     <div class="span8">
         {% for post in site.posts limit:1 %}
@@ -22,13 +26,7 @@ bodyTag: home
         {% endfor %}
     </div>
 
-    <aside class="span4">
-        {% include sidebar.html %}
-    </aside>
-</div>
-
-<div class="row">
-	<div class="span12">
+	<div class="span4">
         <div class="thoughts">
             {% for post in site.posts limit:6 offset:1 %}
             <article>
@@ -40,4 +38,5 @@ bodyTag: home
             {% endfor %}
         </div>
     </div>
+    
 </div>
